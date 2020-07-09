@@ -1,0 +1,459 @@
+###############################################################################
+#
+# IAR ELF Linker V7.70.1.11437/W32 for ARM                23/May/2019  15:09:47
+# Copyright 2007-2016 IAR Systems AB.
+#
+#    Output file  =  
+#        D:\Freescale\无线节能14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\RAM\Exe\14th_wireless_energy_saving_K60.out
+#    Map file     =  
+#        D:\Freescale\无线节能14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\RAM\List\14th_wireless_energy_saving_K60.map
+#    Command line =  
+#        D:\Freescale\无线节能14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\RAM\Obj\14th_wireless_energy_saving.o
+#        D:\Freescale\无线节能14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\RAM\Obj\alloc.o
+#        D:\Freescale\无线节能14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\RAM\Obj\assert.o
+#        D:\Freescale\无线节能14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\RAM\Obj\DEV_LCD.o
+#        D:\Freescale\无线节能14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\RAM\Obj\HW_ADC.o
+#        D:\Freescale\无线节能14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\RAM\Obj\HW_CAN.o
+#        D:\Freescale\无线节能14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\RAM\Obj\HW_DAC.o
+#        D:\Freescale\无线节能14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\RAM\Obj\HW_DMA.o
+#        D:\Freescale\无线节能14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\RAM\Obj\HW_ENET.o
+#        D:\Freescale\无线节能14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\RAM\Obj\HW_FLASH.o
+#        D:\Freescale\无线节能14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\RAM\Obj\HW_FLEXBUS.o
+#        D:\Freescale\无线节能14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\RAM\Obj\HW_FTM.o
+#        D:\Freescale\无线节能14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\RAM\Obj\HW_GPIO.o
+#        D:\Freescale\无线节能14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\RAM\Obj\HW_I2C.o
+#        D:\Freescale\无线节能14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\RAM\Obj\HW_LPTMR.o
+#        D:\Freescale\无线节能14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\RAM\Obj\HW_MCG.o
+#        D:\Freescale\无线节能14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\RAM\Obj\HW_NVIC.o
+#        D:\Freescale\无线节能14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\RAM\Obj\HW_PDB.o
+#        D:\Freescale\无线节能14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\RAM\Obj\HW_PIT.o
+#        D:\Freescale\无线节能14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\RAM\Obj\HW_RTC.o
+#        D:\Freescale\无线节能14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\RAM\Obj\HW_SDHC.o
+#        D:\Freescale\无线节能14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\RAM\Obj\HW_SPI.o
+#        D:\Freescale\无线节能14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\RAM\Obj\HW_SYSTICK.o
+#        D:\Freescale\无线节能14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\RAM\Obj\HW_TSI.o
+#        D:\Freescale\无线节能14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\RAM\Obj\HW_UART.o
+#        D:\Freescale\无线节能14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\RAM\Obj\HW_USB.o
+#        D:\Freescale\无线节能14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\RAM\Obj\HW_WDOG.o
+#        D:\Freescale\无线节能14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\RAM\Obj\io.o
+#        D:\Freescale\无线节能14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\RAM\Obj\printf.o
+#        D:\Freescale\无线节能14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\RAM\Obj\queue.o
+#        D:\Freescale\无线节能14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\RAM\Obj\relocate.o
+#        D:\Freescale\无线节能14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\RAM\Obj\startup_K60.o
+#        D:\Freescale\无线节能14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\RAM\Obj\stdlib.o
+#        D:\Freescale\无线节能14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\RAM\Obj\system_MK60DZ10.o
+#        D:\Freescale\无线节能14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\RAM\Obj\uif.o
+#        --redirect _Printf=_PrintfFull --redirect _Scanf=_ScanfFull -o
+#        D:\Freescale\无线节能14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\RAM\Exe\14th_wireless_energy_saving_K60.out
+#        --map
+#        D:\Freescale\无线节能14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\RAM\List\14th_wireless_energy_saving_K60.map
+#        --config
+#        D:\Freescale\无线节能14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\..\..\lib\iar_config_files\128KB_Ram.icf
+#        --semihosting --entry __iar_program_start "D:\Program Files (x86)\IAR
+#        Systems\Embedded Workbench 7.5\arm\CMSIS\Lib\IAR\iar_cortexM4l_math.a"
+#        --vfe
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at 0x1fff0000 { ro section .intvec };
+"A1":  place at 0x1fff0410 { ro section .noinit };
+"P1":  place in [from 0x1fff0000 to 0x20010000] { ro, block CodeRelocate };
+"P2":  place in [from 0x1fff0000 to 0x20010000] {
+          rw, block CodeRelocateRam, block CSTACK, block HEAP };
+initialize manually with packing = copy, complex ranges { section .data };
+initialize manually with packing = copy, complex ranges { section .textrw };
+
+  Section              Kind        Address    Size  Object
+  -------              ----        -------    ----  ------
+"A0":                                        0x400
+  .intvec              ro code  0x1fff0000   0x400  startup_K60.o [1]
+                              - 0x1fff0400   0x400
+
+"P1-P2", part 1 of 3:                          0x0
+  .rodata              const    0x1fff0400     0x0  zero_init3.o [5]
+
+"A1":                                         0x14
+  .noinit              ro code  0x1fff0410    0x10  startup_K60.o [1]
+  .noinit              ro code  0x1fff0420     0x4  startup_K60.o [1]
+                              - 0x1fff0424    0x14
+
+"P1-P2", part 2 of 3:                       0x1e80
+  .text                ro code  0x1fff0424   0x504  HW_UART.o [1]
+  .text                ro code  0x1fff0928   0x4dc  printf.o [1]
+  .text                ro code  0x1fff0e04    0x1c  stdlib.o [1]
+  .text                ro code  0x1fff0e20   0x218  HW_SPI.o [1]
+  .text                ro code  0x1fff1038   0x1de  HW_CAN.o [1]
+  .text                ro code  0x1fff1218   0x19c  system_MK60DZ10.o [1]
+  .text                ro code  0x1fff13b4    0xa0  relocate.o [1]
+  .text                ro code  0x1fff1454   0x198  HW_MCG.o [1]
+  .text                ro code  0x1fff15ec    0x56  ABImemcpy_unaligned.o [5]
+  .text                ro code  0x1fff1644   0x16c  HW_DMA.o [1]
+  .text                ro code  0x1fff17b0    0xf4  HW_DAC.o [1]
+  .text                ro code  0x1fff18a4    0xcc  HW_I2C.o [1]
+  .text                ro code  0x1fff1970    0x80  HW_ENET.o [1]
+  .text                ro code  0x1fff19f0    0x80  HW_PDB.o [1]
+  .text                ro code  0x1fff1a70    0x74  HW_GPIO.o [1]
+  .text                ro code  0x1fff1ae4    0x70  HW_TSI.o [1]
+  .text                ro code  0x1fff1b54    0x6c  HW_PIT.o [1]
+  .text                ro code  0x1fff1bc0    0x60  HW_RTC.o [1]
+  CodeRelocate                  0x1fff1c20    0x4c  <Block>
+    Initializer bytes  const    0x1fff1c20    0x4c  <for CodeRelocateRam-1>
+  .rodata              const    0x1fff1c6c    0x48  system_MK60DZ10.o [1]
+  .rodata              const    0x1fff1cb4    0x44  system_MK60DZ10.o [1]
+  .rodata              const    0x1fff1cf8    0x44  system_MK60DZ10.o [1]
+  .text                ro code  0x1fff1d3c    0x40  zero_init3.o [5]
+  .rodata              const    0x1fff1d7c    0x30  system_MK60DZ10.o [1]
+  .rodata              const    0x1fff1dac    0x30  system_MK60DZ10.o [1]
+  .text                ro code  0x1fff1ddc    0x28  data_init.o [5]
+  .rodata              const    0x1fff1e04    0x24  system_MK60DZ10.o [1]
+  .rodata              const    0x1fff1e28    0x24  system_MK60DZ10.o [1]
+  .text                ro code  0x1fff1e4c    0x24  HW_FTM.o [1]
+  .iar.init_table      const    0x1fff1e70    0x10  - Linker created -
+  .rodata              const    0x1fff1e80    0x20  system_MK60DZ10.o [1]
+  .text                ro code  0x1fff1ea0    0x20  HW_LPTMR.o [1]
+  .text                ro code  0x1fff1ec0    0x1c  HW_ADC.o [1]
+  .text                ro code  0x1fff1edc    0x1a  cmain.o [5]
+  .text                ro code  0x1fff1ef6     0x4  low_level_init.o [3]
+  .text                ro code  0x1fff1efa     0x2  14th_wireless_energy_saving.o [1]
+  .text                ro code  0x1fff1efc     0x4  exit.o [3]
+  .text                ro code  0x1fff1f00     0xa  cexit.o [5]
+  .text                ro code  0x1fff1f0c    0x14  exit.o [6]
+  .text                ro code  0x1fff1f20    0x14  io.o [1]
+  .data_init                    0x1fff1f34    0x14  <Block>
+    Initializer bytes  const    0x1fff1f34    0x14  <for .data-1>
+  .text                ro code  0x1fff1f48    0x10  HW_SYSTICK.o [1]
+  .text                ro code  0x1fff1f58    0x10  HW_USB.o [1]
+  .text                ro code  0x1fff1f68     0xc  cstartup_M.o [5]
+  .rodata              const    0x1fff1f74     0x8  system_MK60DZ10.o [1]
+  CodeRelocateRam               0x1fff1f7c    0x4c  <Block>
+    CodeRelocateRam-1           0x1fff1f7c    0x4c  <Init block>
+      .textrw          inited   0x1fff1f7c    0x4c  HW_MCG.o [1]
+  .data                         0x1fff1fc8    0x14  <Block>
+    .data-1                     0x1fff1fc8    0x14  <Init block>
+      .data            inited   0x1fff1fc8     0x4  HW_MCG.o [1]
+      .data            inited   0x1fff1fcc     0x4  HW_MCG.o [1]
+      .data            inited   0x1fff1fd0     0x4  HW_MCG.o [1]
+      .data            inited   0x1fff1fd4     0x4  HW_MCG.o [1]
+      .data            inited   0x1fff1fd8     0x4  system_MK60DZ10.o [1]
+  .bss                          0x1fff1fdc   0x2c8  <Block>
+    .bss               zero     0x1fff1fdc     0x8  HW_ADC.o [1]
+    .bss               zero     0x1fff1fe4   0x100  HW_CAN.o [1]
+    .bss               zero     0x1fff20e4    0x40  HW_CAN.o [1]
+    .bss               zero     0x1fff2124    0x40  HW_CAN.o [1]
+    .bss               zero     0x1fff2164     0x8  HW_DAC.o [1]
+    .bss               zero     0x1fff216c     0x8  HW_DAC.o [1]
+    .bss               zero     0x1fff2174     0x8  HW_DAC.o [1]
+    .bss               zero     0x1fff217c    0x40  HW_DMA.o [1]
+    .bss               zero     0x1fff21bc    0x10  HW_ENET.o [1]
+    .bss               zero     0x1fff21cc     0xc  HW_FTM.o [1]
+    .bss               zero     0x1fff21d8    0x14  HW_GPIO.o [1]
+    .bss               zero     0x1fff21ec     0x8  HW_I2C.o [1]
+    .bss               zero     0x1fff21f4     0x4  HW_LPTMR.o [1]
+    .bss               zero     0x1fff21f8     0x4  HW_PDB.o [1]
+    .bss               zero     0x1fff21fc     0x4  HW_PDB.o [1]
+    .bss               zero     0x1fff2200    0x10  HW_PIT.o [1]
+    .bss               zero     0x1fff2210     0xc  HW_RTC.o [1]
+    .bss               zero     0x1fff221c    0x18  HW_SPI.o [1]
+    .bss               zero     0x1fff2234    0x18  HW_SPI.o [1]
+    .bss               zero     0x1fff224c    0x18  HW_SPI.o [1]
+    .bss               zero     0x1fff2264     0x4  HW_SYSTICK.o [1]
+    .bss               zero     0x1fff2268     0x8  HW_TSI.o [1]
+    .bss               zero     0x1fff2270    0x18  HW_UART.o [1]
+    .bss               zero     0x1fff2288    0x18  HW_UART.o [1]
+    .bss               zero     0x1fff22a0     0x4  HW_USB.o [1]
+                              - 0x1fff22a4  0x1e80
+
+"P1-P2", part 3 of 3:                        0x400
+  CSTACK                        0x1fff22a8   0x400  <Block>
+    CSTACK             uninit   0x1fff22a8   0x400  <Block tail>
+                              - 0x1fff26a8   0x400
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x2c8:
+          0x1fff1fdc  0x2c8
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                         ro code  rw code  ro data  rw data
+    ------                         -------  -------  -------  -------
+D:\Freescale\无线节能14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\RAM\Obj: [1]
+    14th_wireless_energy_saving.o        2
+    HW_ADC.o                            28                          8
+    HW_CAN.o                           478                        384
+    HW_DAC.o                           244                         24
+    HW_DMA.o                           364                         64
+    HW_ENET.o                          128                         16
+    HW_FTM.o                            36                         12
+    HW_GPIO.o                          116                         20
+    HW_I2C.o                           204                          8
+    HW_LPTMR.o                          32                          4
+    HW_MCG.o                           408       76       92       16
+    HW_PDB.o                           128                          8
+    HW_PIT.o                           108                         16
+    HW_RTC.o                            96                         12
+    HW_SPI.o                           536                         72
+    HW_SYSTICK.o                        16                          4
+    HW_TSI.o                           112                          8
+    HW_UART.o                        1 284                         48
+    HW_USB.o                            16                          4
+    io.o                                20
+    printf.o                         1 244
+    relocate.o                         160
+    startup_K60.o                    1 044
+    stdlib.o                            28
+    system_MK60DZ10.o                  412               420        4
+    -----------------------------------------------------------------
+    Total:                           7 244       76      512      732
+
+command line: [2]
+    -----------------------------------------------------------------
+    Total:
+
+dl7M_tln.a: [3]
+    exit.o                               4
+    low_level_init.o                     4
+    -----------------------------------------------------------------
+    Total:                               8
+
+m7M_tl.a: [4]
+    -----------------------------------------------------------------
+    Total:
+
+rt7M_tl.a: [5]
+    ABImemcpy_unaligned.o               86
+    cexit.o                             10
+    cmain.o                             26
+    cstartup_M.o                        12
+    data_init.o                         40
+    zero_init3.o                        64
+    -----------------------------------------------------------------
+    Total:                             238
+
+shb_l.a: [6]
+    exit.o                              20
+    -----------------------------------------------------------------
+    Total:                              20
+
+    Gaps                                 6
+    Linker created                                        16    1 024
+---------------------------------------------------------------------
+    Grand Total:                     7 516       76      528    1 756
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address   Size  Type      Object
+-----                      -------   ----  ----      ------
+.bss$$Base              0x1fff1fdc          --   Gb  - Linker created -
+.bss$$Limit             0x1fff22a4          --   Gb  - Linker created -
+.data$$Base             0x1fff1fc8          --   Gb  - Linker created -
+.data$$Limit            0x1fff1fdc          --   Gb  - Linker created -
+.data_init$$Base        0x1fff1f34          --   Gb  - Linker created -
+.data_init$$Limit       0x1fff1f48          --   Gb  - Linker created -
+.iar.init_table$$Base   0x1fff1e70          --   Gb  - Linker created -
+.iar.init_table$$Limit  0x1fff1e80          --   Gb  - Linker created -
+?main                   0x1fff1edd         Code  Gb  cmain.o [5]
+ADC0_IRQHandler         0x1fff1ec1    0xa  Code  Gb  HW_ADC.o [1]
+ADC1_IRQHandler         0x1fff1ecb    0xa  Code  Gb  HW_ADC.o [1]
+ADC_ISR                 0x1fff1fdc    0x8  Data  Gb  HW_ADC.o [1]
+CAN0_BUS_OFF_IRQHandler
+                        0x1fff1193    0x8  Code  Gb  HW_CAN.o [1]
+CAN0_ERR_IRQHandler     0x1fff119b    0xe  Code  Gb  HW_CAN.o [1]
+CAN0_IMEU_IRQHandler    0x1fff11bf    0x2  Code  Gb  HW_CAN.o [1]
+CAN0_ISR                0x1fff20e4   0x40  Data  Gb  HW_CAN.o [1]
+CAN0_LR_IRQHandler      0x1fff11c1    0x2  Code  Gb  HW_CAN.o [1]
+CAN0_MESS_IRQHandler    0x1fff118b    0x8  Code  Gb  HW_CAN.o [1]
+CAN0_RW_IRQHandler      0x1fff11b3    0xa  Code  Gb  HW_CAN.o [1]
+CAN0_TW_IRQHandler      0x1fff11a9    0xa  Code  Gb  HW_CAN.o [1]
+CAN0_WAKE_UP_IRQHandler
+                        0x1fff11bd    0x2  Code  Gb  HW_CAN.o [1]
+CAN1_BUS_OFF_IRQHandler
+                        0x1fff11cb    0x8  Code  Gb  HW_CAN.o [1]
+CAN1_ERR_IRQHandler     0x1fff11d3    0xe  Code  Gb  HW_CAN.o [1]
+CAN1_IMEU_IRQHandler    0x1fff1213    0x2  Code  Gb  HW_CAN.o [1]
+CAN1_ISR                0x1fff2124   0x40  Data  Gb  HW_CAN.o [1]
+CAN1_LR_IRQHandler      0x1fff1215    0x2  Code  Gb  HW_CAN.o [1]
+CAN1_MESS_IRQHandler    0x1fff11c3    0x8  Code  Gb  HW_CAN.o [1]
+CAN1_RW_IRQHandler      0x1fff11eb    0xa  Code  Gb  HW_CAN.o [1]
+CAN1_TW_IRQHandler      0x1fff11e1    0xa  Code  Gb  HW_CAN.o [1]
+CAN1_WAKE_UP_IRQHandler
+                        0x1fff1211    0x2  Code  Gb  HW_CAN.o [1]
+CSTACK$$Base            0x1fff22a8          --   Gb  - Linker created -
+CSTACK$$Limit           0x1fff26a8          --   Gb  - Linker created -
+CodeRelocate$$Base      0x1fff1c20          --   Gb  - Linker created -
+CodeRelocate$$Limit     0x1fff1c6c          --   Gb  - Linker created -
+CodeRelocateRam$$Base   0x1fff1f7c          --   Gb  - Linker created -
+CodeRelocateRam$$Limit  0x1fff1fc8          --   Gb  - Linker created -
+DAC0_IRQHandler         0x1fff17b1   0x6a  Code  Gb  HW_DAC.o [1]
+DAC1_IRQHandler         0x1fff181b   0x6a  Code  Gb  HW_DAC.o [1]
+DAC_RDPTBOT_ISR         0x1fff2164    0x8  Data  Gb  HW_DAC.o [1]
+DAC_RDPTTOP_ISR         0x1fff216c    0x8  Data  Gb  HW_DAC.o [1]
+DAC_WATERMK_ISR         0x1fff2174    0x8  Data  Gb  HW_DAC.o [1]
+DMA0_IRQHandler         0x1fff1645   0x16  Code  Gb  HW_DMA.o [1]
+DMA10_IRQHandler        0x1fff1721   0x16  Code  Gb  HW_DMA.o [1]
+DMA11_IRQHandler        0x1fff1737   0x16  Code  Gb  HW_DMA.o [1]
+DMA12_IRQHandler        0x1fff174d   0x16  Code  Gb  HW_DMA.o [1]
+DMA13_IRQHandler        0x1fff1763   0x16  Code  Gb  HW_DMA.o [1]
+DMA14_IRQHandler        0x1fff1779   0x16  Code  Gb  HW_DMA.o [1]
+DMA15_IRQHandler        0x1fff178f   0x16  Code  Gb  HW_DMA.o [1]
+DMA1_IRQHandler         0x1fff165b   0x16  Code  Gb  HW_DMA.o [1]
+DMA2_IRQHandler         0x1fff1671   0x16  Code  Gb  HW_DMA.o [1]
+DMA3_IRQHandler         0x1fff1687   0x16  Code  Gb  HW_DMA.o [1]
+DMA4_IRQHandler         0x1fff169d   0x16  Code  Gb  HW_DMA.o [1]
+DMA5_IRQHandler         0x1fff16b3   0x16  Code  Gb  HW_DMA.o [1]
+DMA6_IRQHandler         0x1fff16c9   0x16  Code  Gb  HW_DMA.o [1]
+DMA7_IRQHandler         0x1fff16df   0x16  Code  Gb  HW_DMA.o [1]
+DMA8_IRQHandler         0x1fff16f5   0x16  Code  Gb  HW_DMA.o [1]
+DMA9_IRQHandler         0x1fff170b   0x16  Code  Gb  HW_DMA.o [1]
+DMA_ISR                 0x1fff217c   0x40  Data  Gb  HW_DMA.o [1]
+DefaultISR              0x1fff133d   0x14  Code  Gb  system_MK60DZ10.o [1]
+ENET_ISR                0x1fff21bc   0x10  Data  Gb  HW_ENET.o [1]
+Eth_Err_Misc_IRQHandler
+                        0x1fff19d3   0x16  Code  Gb  HW_ENET.o [1]
+Eth_IEEE1588_IRQHandler
+                        0x1fff19bd   0x16  Code  Gb  HW_ENET.o [1]
+Eth_RX_IRQHandler       0x1fff1971   0x26  Code  Gb  HW_ENET.o [1]
+Eth_TX_IRQHandler       0x1fff1997   0x26  Code  Gb  HW_ENET.o [1]
+FTM0_IRQHandler         0x1fff1e4d    0xa  Code  Gb  HW_FTM.o [1]
+FTM1_IRQHandler         0x1fff1e57    0xa  Code  Gb  HW_FTM.o [1]
+FTM2_IRQHandler         0x1fff1e61    0xa  Code  Gb  HW_FTM.o [1]
+FTM_ISR                 0x1fff21cc    0xc  Data  Gb  HW_FTM.o [1]
+GPIO_ISR                0x1fff21d8   0x14  Data  Gb  HW_GPIO.o [1]
+HardFault_Handler       0x1fff1333    0xa  Code  Gb  system_MK60DZ10.o [1]
+I2C0_IRQHandler         0x1fff18a5   0x5a  Code  Gb  HW_I2C.o [1]
+I2C1_IRQHandler         0x1fff18ff   0x5a  Code  Gb  HW_I2C.o [1]
+I2C_ISR                 0x1fff21ec    0x8  Data  Gb  HW_I2C.o [1]
+LPLD_CAN_Interrupt_ClearPending
+                        0x1fff1039   0x24  Code  Lc  HW_CAN.o [1]
+LPLD_CAN_Interrupt_GetFlag
+                        0x1fff105d   0x1e  Code  Lc  HW_CAN.o [1]
+LPLD_CAN_MB_ISR         0x1fff1131   0x5a  Code  Lc  HW_CAN.o [1]
+LPLD_CAN_Receive_Interrupt
+                        0x1fff10d5   0x5c  Code  Lc  HW_CAN.o [1]
+LPLD_CAN_Transmit_Interrupt
+                        0x1fff107b   0x5a  Code  Gb  HW_CAN.o [1]
+LPLD_PLL_Setup          0x1fff1455  0x198  Code  Gb  HW_MCG.o [1]
+LPLD_Set_SYS_DIV        0x1fff1f7d   0x4c  Code  Gb  HW_MCG.o [1]
+LPLD_UART_Init          0x1fff0425  0x30e  Code  Gb  HW_UART.o [1]
+LPLD_UART_PutChar       0x1fff0733    0xa  Code  Gb  HW_UART.o [1]
+LPTMR_ISR               0x1fff21f4    0x4  Data  Gb  HW_LPTMR.o [1]
+LPT_IRQHandler          0x1fff1ea1   0x16  Code  Gb  HW_LPTMR.o [1]
+OS_CPU_SysTickHandler   0x1fff1f49    0xa  Code  Gb  HW_SYSTICK.o [1]
+PDB_IRQHandler          0x1fff19f1   0x6a  Code  Gb  HW_PDB.o [1]
+PDB_ISR                 0x1fff21f8    0x4  Data  Gb  HW_PDB.o [1]
+PDB_SE_ISR              0x1fff21fc    0x4  Data  Gb  HW_PDB.o [1]
+PIT0_IRQHandler         0x1fff1b55   0x16  Code  Gb  HW_PIT.o [1]
+PIT1_IRQHandler         0x1fff1b6b   0x16  Code  Gb  HW_PIT.o [1]
+PIT2_IRQHandler         0x1fff1b81   0x16  Code  Gb  HW_PIT.o [1]
+PIT3_IRQHandler         0x1fff1b97   0x16  Code  Gb  HW_PIT.o [1]
+PIT_ISR                 0x1fff2200   0x10  Data  Gb  HW_PIT.o [1]
+PORTA_IRQHandler        0x1fff1a71   0x12  Code  Gb  HW_GPIO.o [1]
+PORTB_IRQHandler        0x1fff1a83   0x12  Code  Gb  HW_GPIO.o [1]
+PORTC_IRQHandler        0x1fff1a95   0x12  Code  Gb  HW_GPIO.o [1]
+PORTD_IRQHandler        0x1fff1aa7   0x12  Code  Gb  HW_GPIO.o [1]
+PORTE_IRQHandler        0x1fff1ab9   0x12  Code  Gb  HW_GPIO.o [1]
+RTC_IRQHandler          0x1fff1bc1   0x56  Code  Gb  HW_RTC.o [1]
+RTC_ISR                 0x1fff2210    0xc  Data  Gb  HW_RTC.o [1]
+Region$$Table$$Base     0x1fff1e70          --   Gb  - Linker created -
+Region$$Table$$Limit    0x1fff1e80          --   Gb  - Linker created -
+SPI0_IRQHandler         0x1fff0e21   0xaa  Code  Gb  HW_SPI.o [1]
+SPI0_ISR                0x1fff221c   0x18  Data  Gb  HW_SPI.o [1]
+SPI1_IRQHandler         0x1fff0ecb   0xaa  Code  Gb  HW_SPI.o [1]
+SPI1_ISR                0x1fff2234   0x18  Data  Gb  HW_SPI.o [1]
+SPI2_IRQHandler         0x1fff0f75   0xaa  Code  Gb  HW_SPI.o [1]
+SPI2_ISR                0x1fff224c   0x18  Data  Gb  HW_SPI.o [1]
+SYSTICK_ISR             0x1fff2264    0x4  Data  Gb  HW_SYSTICK.o [1]
+SystemCoreClock         0x1fff1fd8    0x4  Data  Gb  system_MK60DZ10.o [1]
+SystemCoreClockUpdate   0x1fff130d   0x26  Code  Gb  system_MK60DZ10.o [1]
+SystemInit              0x1fff1219   0xf4  Code  Gb  system_MK60DZ10.o [1]
+TSI_IRQHandler          0x1fff1ae5   0x5c  Code  Gb  HW_TSI.o [1]
+TSI_ISR                 0x1fff2268    0x8  Data  Gb  HW_TSI.o [1]
+UART0_IRQHandler        0x1fff073d   0x30  Code  Gb  HW_UART.o [1]
+UART1_IRQHandler        0x1fff076d   0x30  Code  Gb  HW_UART.o [1]
+UART2_IRQHandler        0x1fff079d   0x30  Code  Gb  HW_UART.o [1]
+UART3_IRQHandler        0x1fff07cd   0x30  Code  Gb  HW_UART.o [1]
+UART4_IRQHandler        0x1fff07fd   0x30  Code  Gb  HW_UART.o [1]
+UART5_IRQHandler        0x1fff082d   0x30  Code  Gb  HW_UART.o [1]
+UART_R_ISR              0x1fff2270   0x18  Data  Gb  HW_UART.o [1]
+UART_T_ISR              0x1fff2288   0x18  Data  Gb  HW_UART.o [1]
+USB_ISR                 0x1fff22a0    0x4  Data  Gb  HW_USB.o [1]
+USB_OTG_IRQHandler      0x1fff1f59    0xa  Code  Gb  HW_USB.o [1]
+__BOOT_STACK_ADDRESS {Abs}
+                        0x2000fff8         Data  Gb  command line/config [2]
+__VECTOR_RAM {Abs}      0x1fff0000         Data  Gb  command line/config [2]
+__VECTOR_TABLE {Abs}    0x1fff0000         Data  Gb  command line/config [2]
+__Vectors               0x1fff0000          --   Gb  startup_K60.o [1]
+__Vectors_End           0x1fff0400         Data  Gb  startup_K60.o [1]
+__Vectors_Size {Abs}    0x00000400          --   Gb  startup_K60.o [1]
+__cmain                 0x1fff1edd         Code  Gb  cmain.o [5]
+__exit                  0x1fff1f0d   0x14  Code  Gb  exit.o [6]
+__iar_data_init3        0x1fff1ddd   0x28  Code  Gb  data_init.o [5]
+__iar_program_start     0x1fff1f69         Code  Gb  cstartup_M.o [5]
+__iar_unaligned___aeabi_memcpy4
+                        0x1fff15ed         Code  Gb  ABImemcpy_unaligned.o [5]
+__iar_unaligned___aeabi_memcpy8
+                        0x1fff15ed         Code  Gb  ABImemcpy_unaligned.o [5]
+__iar_zero_init3        0x1fff1d3d   0x40  Code  Gb  zero_init3.o [5]
+__low_level_init        0x1fff1ef7    0x4  Code  Gb  low_level_init.o [3]
+__vector_table          0x1fff0000         Data  Gb  startup_K60.o [1]
+__vector_table_0x1c     0x1fff001c         Data  Gb  startup_K60.o [1]
+_call_main              0x1fff1ee9         Code  Gb  cmain.o [5]
+_exit                   0x1fff1f01         Code  Gb  cexit.o [5]
+_main                   0x1fff1ef3         Code  Gb  cmain.o [5]
+common_relocate         0x1fff13b5   0xa0  Code  Gb  relocate.o [1]
+exit                    0x1fff1efd    0x4  Code  Gb  exit.o [3]
+flexcan_msgobj_param_t  0x1fff1fe4  0x100  Data  Gb  HW_CAN.o [1]
+g_bus_clock             0x1fff1fcc    0x4  Data  Gb  HW_MCG.o [1]
+g_core_clock            0x1fff1fc8    0x4  Data  Gb  HW_MCG.o [1]
+g_flash_clock           0x1fff1fd0    0x4  Data  Gb  HW_MCG.o [1]
+g_flexbus_clock         0x1fff1fd4    0x4  Data  Gb  HW_MCG.o [1]
+main                    0x1fff1efb    0x2  Code  Gb  14th_wireless_energy_saving.o [1]
+out_char                0x1fff1f21    0xe  Code  Gb  io.o [1]
+printf                  0x1fff0de3   0x1e  Code  Gb  printf.o [1]
+printk                  0x1fff0a01  0x3e2  Code  Gb  printf.o [1]
+printk_mknumstr         0x1fff0955   0x70  Code  Lc  printf.o [1]
+printk_pad_space        0x1fff09e3   0x1e  Code  Lc  printf.o [1]
+printk_pad_zero         0x1fff09c5   0x1e  Code  Lc  printf.o [1]
+printk_putc             0x1fff0929   0x2c  Code  Lc  printf.o [1]
+strlen                  0x1fff0e05   0x1c  Code  Gb  stdlib.o [1]
+
+
+[1] = D:\Freescale\无线节能14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\RAM\Obj
+[2] = command line
+[3] = dl7M_tln.a
+[4] = m7M_tl.a
+[5] = rt7M_tl.a
+[6] = shb_l.a
+
+  7 516 bytes of readonly  code memory
+     76 bytes of readwrite code memory
+    528 bytes of readonly  data memory
+  1 756 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

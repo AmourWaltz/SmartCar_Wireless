@@ -1,0 +1,398 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V7.70.1.11437/W32 for ARM       08/Jul/2019  02:42:55
+# Copyright 1999-2016 IAR Systems AB.
+#
+#    Cpu mode     =  thumb
+#    Endian       =  little
+#    Source file  =  
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\app\drivers\src\adc.c
+#    Command line =  
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\app\drivers\src\adc.c
+#        -D LPLD_K60 -lCN
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\FLASH\List
+#        -lB
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\FLASH\List
+#        -o
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\FLASH\Obj
+#        --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa
+#        --no_clustering --no_scheduling --debug --endian=little
+#        --cpu=Cortex-M4 -e --fpu=None --dlib_config "D:\Program Files
+#        (x86)\IAR Systems\Embedded Workbench
+#        7.5\arm\INC\c\DLib_Config_Normal.h" -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\app\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\..\..\lib\CPU\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\..\..\lib\common\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\..\..\lib\LPLD\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\..\..\lib\LPLD\HW\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\..\..\lib\LPLD\DEV\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\..\..\lib\uCOS-II\Ports\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\..\..\lib\uCOS-II\Source\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\..\..\lib\FatFs\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\..\..\lib\FatFs\option\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\..\..\lib\USB\common\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\..\..\lib\USB\driver\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\..\..\lib\USB\descriptor\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\..\..\lib\USB\class\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\app\control\inc\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\app\debug\inc\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\app\device\inc\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\app\signal\inc\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\app\system\inc\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\app\control\src\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\app\debug\src\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\app\device\src\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\app\signal\src\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\app\system\src\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\app\drivers\inc\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\app\drivers\src\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\app\charge\inc\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\app\charge\src\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\..\..\lib\LPLD\FUNC\
+#        -Ol -I "D:\Program Files (x86)\IAR Systems\Embedded Workbench
+#        7.5\arm\CMSIS\Include\" -D ARM_MATH_CM4
+#    Locale       =  Chinese (Simplified)_China.936
+#    List file    =  
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\FLASH\List\adc.lst
+#    Object file  =  
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\FLASH\Obj\adc.o
+#
+###############################################################################
+
+D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\app\drivers\src\adc.c
+      1          /*=============================================
+      2              @file         adc.c
+      3              @brief        模数转换
+      4              @programmer   Beyond Hsueh
+      5          =============================================*/
+      6          
+      7          #include "adc.h"
+      8          
+      9          /*===============================================================
+     10                  @note      残雪凝辉冷画屏，落梅横笛已三更。更无人处月胧明。
+     11                             我是人间惆怅客，知君何事泪纵横。断肠声里忆平生。
+     12          ==================================================================*/
+     13                
+
+   \                                 In section .bss, align 4
+     14          static ADC_InitTypeDef adc0_init_struct;
+   \                     adc0_init_struct:
+   \   00000000                      DS8 20
+
+   \                                 In section .bss, align 4
+     15          static ADC_InitTypeDef adc1_init_struct;
+   \                     adc1_init_struct:
+   \   00000000                      DS8 20
+     16          
+     17          /*===============================================================
+     18          	@brief     初始化模数转换器
+     19                  @note      ADC等待最多用100us左右 故采用中断方式节省时间
+     20          ==================================================================*/
+
+   \                                 In section .text, align 2, keep-with-next
+     21          void ADC_Init()
+     22          {
+   \                     ADC_Init: (+1)
+   \   00000000   0xB580             PUSH     {R7,LR}
+     23              ADC0_Init();
+   \   00000002   0x.... 0x....      BL       ADC0_Init
+     24              ADC1_Init();
+   \   00000006   0x.... 0x....      BL       ADC1_Init
+     25                  
+     26              ADC_CH_Init();
+   \   0000000A   0x.... 0x....      BL       ADC_CH_Init
+     27                 
+     28              //在NVIC里面使能中断
+     29              //LPLD_ADC_EnableIrq(adc0_init_struct);
+     30              //LPLD_ADC_EnableIrq(adc1_init_struct);
+     31          }
+   \   0000000E   0xBD01             POP      {R0,PC}          ;; return
+     32          
+     33          /*===============================================================
+     34          	@brief     初始化模数转换器ADC0
+     35          ==================================================================*/
+
+   \                                 In section .text, align 2, keep-with-next
+     36          void ADC0_Init()
+     37          {
+   \                     ADC0_Init: (+1)
+   \   00000000   0xB580             PUSH     {R7,LR}
+     38              //配置ADC采样参数
+     39              adc0_init_struct.ADC_Adcx = ADC0;
+   \   00000002   0x....             LDR.N    R0,??DataTable2  ;; 0x4003b000
+   \   00000004   0x....             LDR.N    R1,??DataTable2_1
+   \   00000006   0x6008             STR      R0,[R1, #+0]
+     40              adc0_init_struct.ADC_DiffMode = ADC_SE;        //单端采集
+   \   00000008   0x2000             MOVS     R0,#+0
+   \   0000000A   0x....             LDR.N    R1,??DataTable2_1
+   \   0000000C   0x7108             STRB     R0,[R1, #+4]
+     41              adc0_init_struct.ADC_BitMode = SE_12BIT;       //单端12位精度
+   \   0000000E   0x2001             MOVS     R0,#+1
+   \   00000010   0x....             LDR.N    R1,??DataTable2_1
+   \   00000012   0x7148             STRB     R0,[R1, #+5]
+     42              adc0_init_struct.ADC_SampleTimeCfg = SAMTIME_LONG;    //短采样时间
+   \   00000014   0x2010             MOVS     R0,#+16
+   \   00000016   0x....             LDR.N    R1,??DataTable2_1
+   \   00000018   0x7188             STRB     R0,[R1, #+6]
+     43              adc0_init_struct.ADC_LongSampleTimeSel = LSAMTIME_12EX;
+   \   0000001A   0x2001             MOVS     R0,#+1
+   \   0000001C   0x....             LDR.N    R1,??DataTable2_1
+   \   0000001E   0x71C8             STRB     R0,[R1, #+7]
+     44              adc0_init_struct.ADC_HwAvgSel = HW_16AVG;       //4次硬件平均
+   \   00000020   0x2006             MOVS     R0,#+6
+   \   00000022   0x....             LDR.N    R1,??DataTable2_1
+   \   00000024   0x7208             STRB     R0,[R1, #+8]
+     45              adc0_init_struct.ADC_CalEnable = TRUE; //使能初始化校验
+   \   00000026   0x2001             MOVS     R0,#+1
+   \   00000028   0x....             LDR.N    R1,??DataTable2_1
+   \   0000002A   0x72C8             STRB     R0,[R1, #+11]
+     46          //    adc0_init_struct.ADC_MuxSel = MUX_ADXXB; //b通道采集   
+     47          //    adc0_init_struct.ADC_Isr = ADC_0_isr; //中断函数 
+     48              //初始化ADC
+     49              LPLD_ADC_Init(adc0_init_struct);
+   \   0000002C   0x....             LDR.N    R1,??DataTable2_1
+   \   0000002E   0xB084             SUB      SP,SP,#+16
+   \   00000030   0x4668             MOV      R0,SP
+   \   00000032   0x2214             MOVS     R2,#+20
+   \   00000034   0x.... 0x....      BL       __aeabi_memcpy4
+   \   00000038   0xBC0F             POP      {R0-R3}
+   \   0000003A   0x.... 0x....      BL       LPLD_ADC_Init
+     50          }
+   \   0000003E   0xBD01             POP      {R0,PC}          ;; return
+     51          
+     52          /*===============================================================
+     53          	@brief     初始化模数转换器ADC1
+     54          ==================================================================*/
+
+   \                                 In section .text, align 2, keep-with-next
+     55          void ADC1_Init()
+     56          {
+   \                     ADC1_Init: (+1)
+   \   00000000   0xB580             PUSH     {R7,LR}
+     57              //配置ADC采样参数
+     58              adc1_init_struct.ADC_Adcx = ADC1;
+   \   00000002   0x....             LDR.N    R0,??DataTable2_2  ;; 0x400bb000
+   \   00000004   0x....             LDR.N    R1,??DataTable2_3
+   \   00000006   0x6008             STR      R0,[R1, #+0]
+     59              adc1_init_struct.ADC_DiffMode = ADC_SE;        //单端采集
+   \   00000008   0x2000             MOVS     R0,#+0
+   \   0000000A   0x....             LDR.N    R1,??DataTable2_3
+   \   0000000C   0x7108             STRB     R0,[R1, #+4]
+     60              adc1_init_struct.ADC_BitMode = SE_12BIT;       //单端12位精度
+   \   0000000E   0x2001             MOVS     R0,#+1
+   \   00000010   0x....             LDR.N    R1,??DataTable2_3
+   \   00000012   0x7148             STRB     R0,[R1, #+5]
+     61              adc1_init_struct.ADC_SampleTimeCfg = SAMTIME_LONG;    //短采样时间
+   \   00000014   0x2010             MOVS     R0,#+16
+   \   00000016   0x....             LDR.N    R1,??DataTable2_3
+   \   00000018   0x7188             STRB     R0,[R1, #+6]
+     62              adc1_init_struct.ADC_LongSampleTimeSel = LSAMTIME_12EX;//LSAMTIME_12EX;
+   \   0000001A   0x2001             MOVS     R0,#+1
+   \   0000001C   0x....             LDR.N    R1,??DataTable2_3
+   \   0000001E   0x71C8             STRB     R0,[R1, #+7]
+     63              adc1_init_struct.ADC_HwAvgSel = HW_16AVG;       //4次硬件平均
+   \   00000020   0x2006             MOVS     R0,#+6
+   \   00000022   0x....             LDR.N    R1,??DataTable2_3
+   \   00000024   0x7208             STRB     R0,[R1, #+8]
+     64              adc1_init_struct.ADC_CalEnable = TRUE;    //使能初始化校验
+   \   00000026   0x2001             MOVS     R0,#+1
+   \   00000028   0x....             LDR.N    R1,??DataTable2_3
+   \   0000002A   0x72C8             STRB     R0,[R1, #+11]
+     65              //adc1_init_struct.ADC_MuxSel = MUX_ADXXB; //b通道采集
+     66              
+     67              adc1_init_struct.ADC_Isr = ADC_1_isr; //中断函数 
+   \   0000002C   0x.... 0x....      ADR.W    R0,ADC_1_isr
+   \   00000030   0x....             LDR.N    R1,??DataTable2_3
+   \   00000032   0x6108             STR      R0,[R1, #+16]
+     68              //初始化ADC
+     69              LPLD_ADC_Init(adc1_init_struct);
+   \   00000034   0x....             LDR.N    R1,??DataTable2_3
+   \   00000036   0xB084             SUB      SP,SP,#+16
+   \   00000038   0x4668             MOV      R0,SP
+   \   0000003A   0x2214             MOVS     R2,#+20
+   \   0000003C   0x.... 0x....      BL       __aeabi_memcpy4
+   \   00000040   0xBC0F             POP      {R0-R3}
+   \   00000042   0x.... 0x....      BL       LPLD_ADC_Init
+     70          }
+   \   00000046   0xBD01             POP      {R0,PC}          ;; return
+     71          
+     72          /*===============================================================
+     73          	@brief     使能电池电压通道
+     74          ==================================================================*/
+
+   \                                 In section .text, align 2, keep-with-next
+     75          void ADC_CH_Init()
+     76          {
+     77              //使能相应通道
+     78              
+     79              //电池AD通道初始化
+     80          
+     81          //    LPLD_ADC_Chn_Enable(BAT_ADC_ID, BAT_ADC_CH);
+     82              
+     83          }
+   \                     ADC_CH_Init: (+1)
+   \   00000000   0x4770             BX       LR               ;; return
+     84          
+     85          /*===============================================================
+     86          	@brief     ADC0中断函数
+     87          ==================================================================*/
+
+   \                                 In section .text, align 2, keep-with-next
+     88          void ADC_0_isr()
+     89          {
+     90          
+     91          }
+   \                     ADC_0_isr: (+1)
+   \   00000000   0x4770             BX       LR               ;; return
+     92          
+     93          /*===============================================================
+     94          	@brief     ADC1中断函数
+     95          ==================================================================*/
+
+   \                                 In section .text, align 4, keep-with-next
+     96          void ADC_1_isr()
+     97          {
+     98          
+     99          }
+   \                     ADC_1_isr: (+1)
+   \   00000000   0x4770             BX       LR               ;; return
+    100          
+    101          /*===============================================================
+    102          	@brief     电池电压转换读取
+    103          ==================================================================*/
+
+   \                                 In section .text, align 2, keep-with-next
+    104          int16 ADC_Battery_Voltage()
+    105          {
+   \                     ADC_Battery_Voltage: (+1)
+   \   00000000   0xB580             PUSH     {R7,LR}
+    106              float result = 0;
+   \   00000002   0x2000             MOVS     R0,#+0
+    107              
+    108              result = LPLD_ADC_Get(BAT_ADC_ID, BAT_ADC_CH);
+   \   00000004   0x2110             MOVS     R1,#+16
+   \   00000006   0x....             LDR.N    R0,??DataTable2  ;; 0x4003b000
+   \   00000008   0x.... 0x....      BL       LPLD_ADC_Get
+   \   0000000C   0x.... 0x....      BL       __aeabi_ui2f
+    109          
+    110              return (int16)(4*5000*result/0x0fff);
+   \   00000010   0x....             LDR.N    R1,??DataTable2_4  ;; 0x469c4000
+   \   00000012   0x.... 0x....      BL       __aeabi_fmul
+   \   00000016   0x....             LDR.N    R1,??DataTable2_5  ;; 0x457ff000
+   \   00000018   0x.... 0x....      BL       __aeabi_fdiv
+   \   0000001C   0x.... 0x....      BL       __aeabi_f2iz
+   \   00000020   0xB200             SXTH     R0,R0            ;; SignExt  R0,R0,#+16,#+16
+   \   00000022   0xBD02             POP      {R1,PC}          ;; return
+    111          }
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable2:
+   \   00000000   0x4003B000         DC32     0x4003b000
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable2_1:
+   \   00000000   0x........         DC32     adc0_init_struct
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable2_2:
+   \   00000000   0x400BB000         DC32     0x400bb000
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable2_3:
+   \   00000000   0x........         DC32     adc1_init_struct
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable2_4:
+   \   00000000   0x469C4000         DC32     0x469c4000
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable2_5:
+   \   00000000   0x457FF000         DC32     0x457ff000
+    112          
+    113          
+    114          
+    115          
+    116          
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+      24   ADC0_Init
+         8   -> LPLD_ADC_Init
+        24   -> __aeabi_memcpy4
+      24   ADC1_Init
+         8   -> LPLD_ADC_Init
+        24   -> __aeabi_memcpy4
+       0   ADC_0_isr
+       0   ADC_1_isr
+       8   ADC_Battery_Voltage
+         8   -> LPLD_ADC_Get
+         8   -> __aeabi_f2iz
+         8   -> __aeabi_fdiv
+         8   -> __aeabi_fmul
+         8   -> __aeabi_ui2f
+       0   ADC_CH_Init
+       8   ADC_Init
+         8   -> ADC0_Init
+         8   -> ADC1_Init
+         8   -> ADC_CH_Init
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       4  ??DataTable2
+       4  ??DataTable2_1
+       4  ??DataTable2_2
+       4  ??DataTable2_3
+       4  ??DataTable2_4
+       4  ??DataTable2_5
+      64  ADC0_Init
+      72  ADC1_Init
+       2  ADC_0_isr
+       2  ADC_1_isr
+      36  ADC_Battery_Voltage
+       2  ADC_CH_Init
+      16  ADC_Init
+      20  adc0_init_struct
+      20  adc1_init_struct
+
+ 
+  40 bytes in section .bss
+ 218 bytes in section .text
+ 
+ 218 bytes of CODE memory
+  40 bytes of DATA memory
+
+Errors: none
+Warnings: none

@@ -1,0 +1,261 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V7.70.1.11437/W32 for ARM       08/Jul/2019  02:42:55
+# Copyright 1999-2016 IAR Systems AB.
+#
+#    Cpu mode     =  thumb
+#    Endian       =  little
+#    Source file  =  
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\app\device\src\beep.c
+#    Command line =  
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\app\device\src\beep.c
+#        -D LPLD_K60 -lCN
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\FLASH\List
+#        -lB
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\FLASH\List
+#        -o
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\FLASH\Obj
+#        --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa
+#        --no_clustering --no_scheduling --debug --endian=little
+#        --cpu=Cortex-M4 -e --fpu=None --dlib_config "D:\Program Files
+#        (x86)\IAR Systems\Embedded Workbench
+#        7.5\arm\INC\c\DLib_Config_Normal.h" -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\app\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\..\..\lib\CPU\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\..\..\lib\common\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\..\..\lib\LPLD\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\..\..\lib\LPLD\HW\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\..\..\lib\LPLD\DEV\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\..\..\lib\uCOS-II\Ports\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\..\..\lib\uCOS-II\Source\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\..\..\lib\FatFs\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\..\..\lib\FatFs\option\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\..\..\lib\USB\common\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\..\..\lib\USB\driver\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\..\..\lib\USB\descriptor\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\..\..\lib\USB\class\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\app\control\inc\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\app\debug\inc\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\app\device\inc\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\app\signal\inc\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\app\system\inc\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\app\control\src\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\app\debug\src\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\app\device\src\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\app\signal\src\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\app\system\src\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\app\drivers\inc\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\app\drivers\src\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\app\charge\inc\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\app\charge\src\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\..\..\lib\LPLD\FUNC\
+#        -Ol -I "D:\Program Files (x86)\IAR Systems\Embedded Workbench
+#        7.5\arm\CMSIS\Include\" -D ARM_MATH_CM4
+#    Locale       =  Chinese (Simplified)_China.936
+#    List file    =  
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\FLASH\List\beep.lst
+#    Object file  =  
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\FLASH\Obj\beep.o
+#
+###############################################################################
+
+D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\app\device\src\beep.c
+      1          /*=============================================
+      2              @file         beep.c
+      3              @brief        蜂鸣器文件
+      4              @programmer   Beyond Hsueh
+      5          =============================================*/
+      6          
+      7          #include "beep.h"
+      8          
+      9          /*===============================================================
+     10                  @note      野有蔓草，零露漙兮。
+     11                             有美一人，清扬婉兮。
+     12                             邂逅相遇，适我愿兮。
+     13                             野有蔓草，零露瀼瀼。
+     14                             有美一人，婉如清扬。
+     15                             邂逅相遇，与子偕臧。
+     16          ==================================================================*/
+     17                
+     18          /*===============================================================
+     19          	@brief     初始化蜂鸣器
+     20          ==================================================================*/
+
+   \                                 In section .text, align 2, keep-with-next
+     21          void Beep_Init()
+     22          {
+   \                     Beep_Init: (+1)
+   \   00000000   0xB580             PUSH     {R7,LR}
+     23              GPIO_Init(BEEP_PORT, BEEP_PIN_MASK, DIR_OUTPUT, BEEP_OFF_LV);          
+   \   00000002   0x2300             MOVS     R3,#+0
+   \   00000004   0x2201             MOVS     R2,#+1
+   \   00000006   0x2110             MOVS     R1,#+16
+   \   00000008   0x....             LDR.N    R0,??DataTable3  ;; 0x400ff100
+   \   0000000A   0x.... 0x....      BL       GPIO_Init
+     24          }
+   \   0000000E   0xBD01             POP      {R0,PC}          ;; return
+     25          
+     26          /*===============================================================
+     27          	@brief     开蜂鸣器
+     28          ==================================================================*/
+
+   \                                 In section .text, align 2, keep-with-next
+     29          void Beep_On()
+     30          {
+   \                     Beep_On: (+1)
+   \   00000000   0xB580             PUSH     {R7,LR}
+     31             if (guc_beep_start_flag == OFF)
+   \   00000002   0x....             LDR.N    R0,??DataTable3_1
+   \   00000004   0x7800             LDRB     R0,[R0, #+0]
+   \   00000006   0x2800             CMP      R0,#+0
+   \   00000008   0xD102             BNE.N    ??Beep_On_0
+     32              {
+     33                  Beep_Off();
+   \   0000000A   0x.... 0x....      BL       Beep_Off
+   \   0000000E   0xE00E             B.N      ??Beep_On_1
+     34              }
+     35              else
+     36              {
+     37                
+     38          #ifdef COMPETITION_MODE
+     39                LPLD_GPIO_Output_b(BEEP_PORT, BEEP_PIN, BEEP_OFF_LV);
+     40          #else
+     41                if(guc_automation_mode_flag == ON)
+   \                     ??Beep_On_0: (+1)
+   \   00000010   0x....             LDR.N    R0,??DataTable3_2
+   \   00000012   0x7800             LDRB     R0,[R0, #+0]
+   \   00000014   0x2801             CMP      R0,#+1
+   \   00000016   0xD105             BNE.N    ??Beep_On_2
+     42                {
+     43                    LPLD_GPIO_Output_b(BEEP_PORT, BEEP_PIN, BEEP_OFF_LV);
+   \   00000018   0x2200             MOVS     R2,#+0
+   \   0000001A   0x2104             MOVS     R1,#+4
+   \   0000001C   0x....             LDR.N    R0,??DataTable3  ;; 0x400ff100
+   \   0000001E   0x.... 0x....      BL       LPLD_GPIO_Output_b
+   \   00000022   0xE004             B.N      ??Beep_On_1
+     44                }
+     45                else
+     46                {
+     47                    LPLD_GPIO_Output_b(BEEP_PORT, BEEP_PIN, BEEP_ON_LV);
+   \                     ??Beep_On_2: (+1)
+   \   00000024   0x2201             MOVS     R2,#+1
+   \   00000026   0x2104             MOVS     R1,#+4
+   \   00000028   0x....             LDR.N    R0,??DataTable3  ;; 0x400ff100
+   \   0000002A   0x.... 0x....      BL       LPLD_GPIO_Output_b
+     48                }
+     49          #endif    
+     50                  
+     51              }
+     52          }
+   \                     ??Beep_On_1: (+1)
+   \   0000002E   0xBD01             POP      {R0,PC}          ;; return
+     53          
+     54          /*===============================================================
+     55          	@brief     关蜂鸣器
+     56          ==================================================================*/
+
+   \                                 In section .text, align 2, keep-with-next
+     57          void Beep_Off()
+     58          {
+   \                     Beep_Off: (+1)
+   \   00000000   0xB580             PUSH     {R7,LR}
+     59              LPLD_GPIO_Output_b(BEEP_PORT, BEEP_PIN, BEEP_OFF_LV);
+   \   00000002   0x2200             MOVS     R2,#+0
+   \   00000004   0x2104             MOVS     R1,#+4
+   \   00000006   0x....             LDR.N    R0,??DataTable3  ;; 0x400ff100
+   \   00000008   0x.... 0x....      BL       LPLD_GPIO_Output_b
+     60          }
+   \   0000000C   0xBD01             POP      {R0,PC}          ;; return
+     61          
+     62          /*===============================================================
+     63          	@brief     读取蜂鸣器状态
+     64          ==================================================================*/
+
+   \                                 In section .text, align 2, keep-with-next
+     65          void Get_Beep_State(uint8 *uc_state)
+     66          {    
+   \                     Get_Beep_State: (+1)
+   \   00000000   0xB510             PUSH     {R4,LR}
+   \   00000002   0x0004             MOVS     R4,R0
+     67              *uc_state = LPLD_GPIO_Input_b(BEEP_PORT, BEEP_PIN);
+   \   00000004   0x2104             MOVS     R1,#+4
+   \   00000006   0x....             LDR.N    R0,??DataTable3  ;; 0x400ff100
+   \   00000008   0x.... 0x....      BL       LPLD_GPIO_Input_b
+   \   0000000C   0x7020             STRB     R0,[R4, #+0]
+     68          }
+   \   0000000E   0xBD10             POP      {R4,PC}          ;; return
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable3:
+   \   00000000   0x400FF100         DC32     0x400ff100
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable3_1:
+   \   00000000   0x........         DC32     guc_beep_start_flag
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable3_2:
+   \   00000000   0x........         DC32     guc_automation_mode_flag
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+       8   Beep_Init
+         8   -> GPIO_Init
+       8   Beep_Off
+         8   -> LPLD_GPIO_Output_b
+       8   Beep_On
+         8   -> Beep_Off
+         8   -> LPLD_GPIO_Output_b
+       8   Get_Beep_State
+         8   -> LPLD_GPIO_Input_b
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       4  ??DataTable3
+       4  ??DataTable3_1
+       4  ??DataTable3_2
+      16  Beep_Init
+      14  Beep_Off
+      48  Beep_On
+      16  Get_Beep_State
+
+ 
+ 106 bytes in section .text
+ 
+ 106 bytes of CODE memory
+
+Errors: none
+Warnings: none

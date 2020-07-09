@@ -1,0 +1,686 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V7.70.1.11437/W32 for ARM       08/Jul/2019  02:43:01
+# Copyright 1999-2016 IAR Systems AB.
+#
+#    Cpu mode     =  thumb
+#    Endian       =  little
+#    Source file  =  
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\app\drivers\src\pit.c
+#    Command line =  
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\app\drivers\src\pit.c
+#        -D LPLD_K60 -lCN
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\FLASH\List
+#        -lB
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\FLASH\List
+#        -o
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\FLASH\Obj
+#        --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa
+#        --no_clustering --no_scheduling --debug --endian=little
+#        --cpu=Cortex-M4 -e --fpu=None --dlib_config "D:\Program Files
+#        (x86)\IAR Systems\Embedded Workbench
+#        7.5\arm\INC\c\DLib_Config_Normal.h" -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\app\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\..\..\lib\CPU\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\..\..\lib\common\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\..\..\lib\LPLD\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\..\..\lib\LPLD\HW\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\..\..\lib\LPLD\DEV\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\..\..\lib\uCOS-II\Ports\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\..\..\lib\uCOS-II\Source\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\..\..\lib\FatFs\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\..\..\lib\FatFs\option\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\..\..\lib\USB\common\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\..\..\lib\USB\driver\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\..\..\lib\USB\descriptor\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\..\..\lib\USB\class\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\app\control\inc\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\app\debug\inc\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\app\device\inc\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\app\signal\inc\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\app\system\inc\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\app\control\src\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\app\debug\src\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\app\device\src\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\app\signal\src\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\app\system\src\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\app\drivers\inc\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\app\drivers\src\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\app\charge\inc\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\app\charge\src\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\..\..\lib\LPLD\FUNC\
+#        -Ol -I "D:\Program Files (x86)\IAR Systems\Embedded Workbench
+#        7.5\arm\CMSIS\Include\" -D ARM_MATH_CM4
+#    Locale       =  Chinese (Simplified)_China.936
+#    List file    =  
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\FLASH\List\pit.lst
+#    Object file  =  
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\FLASH\Obj\pit.o
+#
+###############################################################################
+
+D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving_NXP\14th_wireless_energy_saving\project\14th_wireless_energy_saving\app\drivers\src\pit.c
+      1          /*=============================================
+      2              @file         pit.c
+      3              @brief        周期性定时器
+      4              @programmer   Beyond Hsueh
+      5          =============================================*/
+      6          
+      7          #include "pit.h"
+      8          #include "isr.h"
+      9          
+     10          /*===============================================================
+     11                  @note      展放愁眉，休争闲气，
+     12                             今日容颜，老于昨日，
+     13                             浮生若梦，难逃那日，
+     14                             受用一朝，一朝便宜。
+     15          ==================================================================*/      
+     16          
+     17          //定义PIT全局结构
+     18          #ifdef PIT_0_INIT
+
+   \                                 In section .bss, align 4
+     19          	PIT_InitTypeDef struct_PIT_0;
+   \                     struct_PIT_0:
+   \   00000000                      DS8 20
+     20          #endif
+     21          
+     22          #ifdef PIT_1_INIT
+
+   \                                 In section .bss, align 4
+     23          	PIT_InitTypeDef struct_PIT_1;
+   \                     struct_PIT_1:
+   \   00000000                      DS8 20
+     24          #endif
+     25          
+     26          #ifdef PIT_2_INIT
+
+   \                                 In section .bss, align 4
+     27          	PIT_InitTypeDef struct_PIT_2;
+   \                     struct_PIT_2:
+   \   00000000                      DS8 20
+     28          #endif
+     29            
+     30          #ifdef PIT_3_INIT
+
+   \                                 In section .bss, align 4
+     31          	PIT_InitTypeDef struct_PIT_3;
+   \                     struct_PIT_3:
+   \   00000000                      DS8 20
+     32          #endif
+     33          
+     34          /*===============================================================
+     35          	@brief     PIT初始化
+     36          ==================================================================*/ 
+
+   \                                 In section .text, align 2, keep-with-next
+     37          void PIT_Init(void)
+     38          {
+   \                     PIT_Init: (+1)
+   \   00000000   0xB580             PUSH     {R7,LR}
+     39          
+     40          #ifdef PIT_0_INIT
+     41          	//配置PIT0参数
+     42          	struct_PIT_0.PIT_Pitx = PIT0;
+   \   00000002   0x2000             MOVS     R0,#+0
+   \   00000004   0x....             LDR.N    R1,??DataTable4
+   \   00000006   0x7008             STRB     R0,[R1, #+0]
+     43          	struct_PIT_0.PIT_PeriodUs = PIT_0_PERIOD_US;     //定时周期
+   \   00000008   0x2064             MOVS     R0,#+100
+   \   0000000A   0x....             LDR.N    R1,??DataTable4
+   \   0000000C   0x6048             STR      R0,[R1, #+4]
+     44          	struct_PIT_0.PIT_Isr = PIT_0_handler;  //设置中断函数
+   \   0000000E   0x.... 0x....      ADR.W    R0,PIT_0_handler
+   \   00000012   0x....             LDR.N    R1,??DataTable4
+   \   00000014   0x6108             STR      R0,[R1, #+16]
+     45          	//初始化PIT0
+     46          	LPLD_PIT_Init(struct_PIT_0);
+   \   00000016   0x....             LDR.N    R1,??DataTable4
+   \   00000018   0xB084             SUB      SP,SP,#+16
+   \   0000001A   0x4668             MOV      R0,SP
+   \   0000001C   0x2214             MOVS     R2,#+20
+   \   0000001E   0x.... 0x....      BL       __aeabi_memcpy4
+   \   00000022   0xBC0F             POP      {R0-R3}
+   \   00000024   0x.... 0x....      BL       LPLD_PIT_Init
+     47          
+     48          #endif
+     49          
+     50          #ifdef PIT_1_INIT
+     51          	//配置PIT1参数
+     52          	struct_PIT_1.PIT_Pitx = PIT1;
+   \   00000028   0x2001             MOVS     R0,#+1
+   \   0000002A   0x....             LDR.N    R1,??DataTable4_1
+   \   0000002C   0x7008             STRB     R0,[R1, #+0]
+     53          	struct_PIT_1.PIT_PeriodMs = PIT_1_PERIOD_MS;     //定时周期
+   \   0000002E   0x2004             MOVS     R0,#+4
+   \   00000030   0x....             LDR.N    R1,??DataTable4_1
+   \   00000032   0x6088             STR      R0,[R1, #+8]
+     54          	struct_PIT_1.PIT_Isr = PIT_1_handler;  //设置中断函数
+   \   00000034   0x.... 0x....      ADR.W    R0,PIT_1_handler
+   \   00000038   0x....             LDR.N    R1,??DataTable4_1
+   \   0000003A   0x6108             STR      R0,[R1, #+16]
+     55          	//初始化PIT1
+     56          	LPLD_PIT_Init(struct_PIT_1);
+   \   0000003C   0x....             LDR.N    R1,??DataTable4_1
+   \   0000003E   0xB084             SUB      SP,SP,#+16
+   \   00000040   0x4668             MOV      R0,SP
+   \   00000042   0x2214             MOVS     R2,#+20
+   \   00000044   0x.... 0x....      BL       __aeabi_memcpy4
+   \   00000048   0xBC0F             POP      {R0-R3}
+   \   0000004A   0x.... 0x....      BL       LPLD_PIT_Init
+     57          
+     58          #endif
+     59            
+     60          #ifdef PIT_2_INIT
+     61          	//配置PIT2参数
+     62          	struct_PIT_2.PIT_Pitx = PIT2;
+   \   0000004E   0x2002             MOVS     R0,#+2
+   \   00000050   0x....             LDR.N    R1,??DataTable4_2
+   \   00000052   0x7008             STRB     R0,[R1, #+0]
+     63          	struct_PIT_2.PIT_PeriodS = PIT_2_PERIOD_MS;     //定时周期
+   \   00000054   0x2002             MOVS     R0,#+2
+   \   00000056   0x....             LDR.N    R1,??DataTable4_2
+   \   00000058   0x60C8             STR      R0,[R1, #+12]
+     64          	struct_PIT_2.PIT_Isr = PIT_2_handler;  //设置中断函数
+   \   0000005A   0x.... 0x....      ADR.W    R0,PIT_2_handler
+   \   0000005E   0x....             LDR.N    R1,??DataTable4_2
+   \   00000060   0x6108             STR      R0,[R1, #+16]
+     65          	//初始化PIT2
+     66          	LPLD_PIT_Init(struct_PIT_2);
+   \   00000062   0x....             LDR.N    R1,??DataTable4_2
+   \   00000064   0xB084             SUB      SP,SP,#+16
+   \   00000066   0x4668             MOV      R0,SP
+   \   00000068   0x2214             MOVS     R2,#+20
+   \   0000006A   0x.... 0x....      BL       __aeabi_memcpy4
+   \   0000006E   0xBC0F             POP      {R0-R3}
+   \   00000070   0x.... 0x....      BL       LPLD_PIT_Init
+     67          
+     68          #endif
+     69            
+     70          #ifdef PIT_3_INIT
+     71          	//配置PIT3参数
+     72          	struct_PIT_3.PIT_Pitx = PIT3;
+   \   00000074   0x2003             MOVS     R0,#+3
+   \   00000076   0x....             LDR.N    R1,??DataTable4_3
+   \   00000078   0x7008             STRB     R0,[R1, #+0]
+     73          	struct_PIT_3.PIT_PeriodMs = PIT_3_PERIOD_MS;     //定时周期
+   \   0000007A   0x2005             MOVS     R0,#+5
+   \   0000007C   0x....             LDR.N    R1,??DataTable4_3
+   \   0000007E   0x6088             STR      R0,[R1, #+8]
+     74          	struct_PIT_3.PIT_Isr = PIT_3_handler;  //设置中断函数
+   \   00000080   0x.... 0x....      ADR.W    R0,PIT_3_handler
+   \   00000084   0x....             LDR.N    R1,??DataTable4_3
+   \   00000086   0x6108             STR      R0,[R1, #+16]
+     75          	//初始化PIT3
+     76          	LPLD_PIT_Init(struct_PIT_3);
+   \   00000088   0x....             LDR.N    R1,??DataTable4_3
+   \   0000008A   0xB084             SUB      SP,SP,#+16
+   \   0000008C   0x4668             MOV      R0,SP
+   \   0000008E   0x2214             MOVS     R2,#+20
+   \   00000090   0x.... 0x....      BL       __aeabi_memcpy4
+   \   00000094   0xBC0F             POP      {R0-R3}
+   \   00000096   0x.... 0x....      BL       LPLD_PIT_Init
+     77          
+     78          #endif
+     79          	
+     80          	//禁用PIT
+     81          	PIT_ALL_Disable();
+   \   0000009A   0x.... 0x....      BL       PIT_ALL_Disable
+     82          }
+   \   0000009E   0xBD01             POP      {R0,PC}          ;; return
+     83          
+     84          /*===============================================================
+     85          	@brief     使能一个PIT
+     86          ==================================================================*/ 
+
+   \                                 In section .text, align 2, keep-with-next
+     87          void PIT_ONE_Enable(uint8 pit_num)
+     88          {
+   \                     PIT_ONE_Enable: (+1)
+   \   00000000   0xB580             PUSH     {R7,LR}
+     89          	switch (pit_num)
+   \   00000002   0xB2C0             UXTB     R0,R0            ;; ZeroExt  R0,R0,#+24,#+24
+   \   00000004   0x2800             CMP      R0,#+0
+   \   00000006   0xD005             BEQ.N    ??PIT_ONE_Enable_0
+   \   00000008   0x2802             CMP      R0,#+2
+   \   0000000A   0xD017             BEQ.N    ??PIT_ONE_Enable_1
+   \   0000000C   0xD30C             BCC.N    ??PIT_ONE_Enable_2
+   \   0000000E   0x2803             CMP      R0,#+3
+   \   00000010   0xD01E             BEQ.N    ??PIT_ONE_Enable_3
+   \   00000012   0xE027             B.N      ??PIT_ONE_Enable_4
+     90          	{
+     91          		#ifdef PIT_0_INIT
+     92          		case PIT_0_INIT:
+     93          			LPLD_PIT_EnableIrq(struct_PIT_0); 
+   \                     ??PIT_ONE_Enable_0: (+1)
+   \   00000014   0x....             LDR.N    R1,??DataTable4
+   \   00000016   0xB084             SUB      SP,SP,#+16
+   \   00000018   0x4668             MOV      R0,SP
+   \   0000001A   0x2214             MOVS     R2,#+20
+   \   0000001C   0x.... 0x....      BL       __aeabi_memcpy4
+   \   00000020   0xBC0F             POP      {R0-R3}
+   \   00000022   0x.... 0x....      BL       LPLD_PIT_EnableIrq
+     94          			break;
+   \   00000026   0xE01D             B.N      ??PIT_ONE_Enable_5
+     95          		#endif
+     96          
+     97          		#ifdef PIT_1_INIT
+     98          		case PIT_1_INIT:
+     99          			LPLD_PIT_EnableIrq(struct_PIT_1); 
+   \                     ??PIT_ONE_Enable_2: (+1)
+   \   00000028   0x....             LDR.N    R1,??DataTable4_1
+   \   0000002A   0xB084             SUB      SP,SP,#+16
+   \   0000002C   0x4668             MOV      R0,SP
+   \   0000002E   0x2214             MOVS     R2,#+20
+   \   00000030   0x.... 0x....      BL       __aeabi_memcpy4
+   \   00000034   0xBC0F             POP      {R0-R3}
+   \   00000036   0x.... 0x....      BL       LPLD_PIT_EnableIrq
+    100          			break;
+   \   0000003A   0xE013             B.N      ??PIT_ONE_Enable_5
+    101          		#endif
+    102           
+    103          		#ifdef PIT_2_INIT
+    104          		case PIT_2_INIT:
+    105          			LPLD_PIT_EnableIrq(struct_PIT_2); 
+   \                     ??PIT_ONE_Enable_1: (+1)
+   \   0000003C   0x....             LDR.N    R1,??DataTable4_2
+   \   0000003E   0xB084             SUB      SP,SP,#+16
+   \   00000040   0x4668             MOV      R0,SP
+   \   00000042   0x2214             MOVS     R2,#+20
+   \   00000044   0x.... 0x....      BL       __aeabi_memcpy4
+   \   00000048   0xBC0F             POP      {R0-R3}
+   \   0000004A   0x.... 0x....      BL       LPLD_PIT_EnableIrq
+    106          			break;
+   \   0000004E   0xE009             B.N      ??PIT_ONE_Enable_5
+    107          		#endif
+    108            
+    109          		#ifdef PIT_3_INIT
+    110          		case PIT_3_INIT:
+    111          			LPLD_PIT_EnableIrq(struct_PIT_3); 
+   \                     ??PIT_ONE_Enable_3: (+1)
+   \   00000050   0x....             LDR.N    R1,??DataTable4_3
+   \   00000052   0xB084             SUB      SP,SP,#+16
+   \   00000054   0x4668             MOV      R0,SP
+   \   00000056   0x2214             MOVS     R2,#+20
+   \   00000058   0x.... 0x....      BL       __aeabi_memcpy4
+   \   0000005C   0xBC0F             POP      {R0-R3}
+   \   0000005E   0x.... 0x....      BL       LPLD_PIT_EnableIrq
+    112          			break;
+   \   00000062   0xE7FF             B.N      ??PIT_ONE_Enable_5
+    113          		#endif
+    114          			
+    115          		default: break;
+    116          	}
+    117          }
+   \                     ??PIT_ONE_Enable_4: (+1)
+   \                     ??PIT_ONE_Enable_5: (+1)
+   \   00000064   0xBD01             POP      {R0,PC}          ;; return
+    118          
+    119          /*===============================================================
+    120          	@brief     禁用一个PIT
+    121          ==================================================================*/ 
+
+   \                                 In section .text, align 2, keep-with-next
+    122          void PIT_ONE_Disable(uint8 pit_num)
+    123          {
+   \                     PIT_ONE_Disable: (+1)
+   \   00000000   0xB580             PUSH     {R7,LR}
+    124          		switch (pit_num)
+   \   00000002   0xB2C0             UXTB     R0,R0            ;; ZeroExt  R0,R0,#+24,#+24
+   \   00000004   0x2800             CMP      R0,#+0
+   \   00000006   0xD005             BEQ.N    ??PIT_ONE_Disable_0
+   \   00000008   0x2802             CMP      R0,#+2
+   \   0000000A   0xD017             BEQ.N    ??PIT_ONE_Disable_1
+   \   0000000C   0xD30C             BCC.N    ??PIT_ONE_Disable_2
+   \   0000000E   0x2803             CMP      R0,#+3
+   \   00000010   0xD01E             BEQ.N    ??PIT_ONE_Disable_3
+   \   00000012   0xE027             B.N      ??PIT_ONE_Disable_4
+    125          	{
+    126          		#ifdef PIT_0_INIT
+    127          		case PIT_0_INIT:
+    128          			LPLD_PIT_DisableIrq(struct_PIT_0); 
+   \                     ??PIT_ONE_Disable_0: (+1)
+   \   00000014   0x....             LDR.N    R1,??DataTable4
+   \   00000016   0xB084             SUB      SP,SP,#+16
+   \   00000018   0x4668             MOV      R0,SP
+   \   0000001A   0x2214             MOVS     R2,#+20
+   \   0000001C   0x.... 0x....      BL       __aeabi_memcpy4
+   \   00000020   0xBC0F             POP      {R0-R3}
+   \   00000022   0x.... 0x....      BL       LPLD_PIT_DisableIrq
+    129          			break;
+   \   00000026   0xE01D             B.N      ??PIT_ONE_Disable_5
+    130          		#endif
+    131          
+    132          		#ifdef PIT_1_INIT
+    133          		case PIT_1_INIT:
+    134          			LPLD_PIT_DisableIrq(struct_PIT_1); 
+   \                     ??PIT_ONE_Disable_2: (+1)
+   \   00000028   0x....             LDR.N    R1,??DataTable4_1
+   \   0000002A   0xB084             SUB      SP,SP,#+16
+   \   0000002C   0x4668             MOV      R0,SP
+   \   0000002E   0x2214             MOVS     R2,#+20
+   \   00000030   0x.... 0x....      BL       __aeabi_memcpy4
+   \   00000034   0xBC0F             POP      {R0-R3}
+   \   00000036   0x.... 0x....      BL       LPLD_PIT_DisableIrq
+    135          			break;
+   \   0000003A   0xE013             B.N      ??PIT_ONE_Disable_5
+    136          		#endif
+    137           
+    138          		#ifdef PIT_2_INIT
+    139          		case PIT_2_INIT:
+    140          			LPLD_PIT_DisableIrq(struct_PIT_2); 
+   \                     ??PIT_ONE_Disable_1: (+1)
+   \   0000003C   0x....             LDR.N    R1,??DataTable4_2
+   \   0000003E   0xB084             SUB      SP,SP,#+16
+   \   00000040   0x4668             MOV      R0,SP
+   \   00000042   0x2214             MOVS     R2,#+20
+   \   00000044   0x.... 0x....      BL       __aeabi_memcpy4
+   \   00000048   0xBC0F             POP      {R0-R3}
+   \   0000004A   0x.... 0x....      BL       LPLD_PIT_DisableIrq
+    141          			break;
+   \   0000004E   0xE009             B.N      ??PIT_ONE_Disable_5
+    142          		#endif
+    143            
+    144          		#ifdef PIT_3_INIT
+    145          		case PIT_3_INIT:
+    146          			LPLD_PIT_DisableIrq(struct_PIT_3); 
+   \                     ??PIT_ONE_Disable_3: (+1)
+   \   00000050   0x....             LDR.N    R1,??DataTable4_3
+   \   00000052   0xB084             SUB      SP,SP,#+16
+   \   00000054   0x4668             MOV      R0,SP
+   \   00000056   0x2214             MOVS     R2,#+20
+   \   00000058   0x.... 0x....      BL       __aeabi_memcpy4
+   \   0000005C   0xBC0F             POP      {R0-R3}
+   \   0000005E   0x.... 0x....      BL       LPLD_PIT_DisableIrq
+    147          			break;
+   \   00000062   0xE7FF             B.N      ??PIT_ONE_Disable_5
+    148          		#endif
+    149          			
+    150          		default: break;
+    151          	}
+    152          }
+   \                     ??PIT_ONE_Disable_4: (+1)
+   \                     ??PIT_ONE_Disable_5: (+1)
+   \   00000064   0xBD01             POP      {R0,PC}          ;; return
+    153          
+    154          /*===============================================================
+    155          	@brief     使能所有定义的PIT
+    156          ==================================================================*/ 
+
+   \                                 In section .text, align 2, keep-with-next
+    157          void PIT_ALL_Enable(void)
+    158          {
+   \                     PIT_ALL_Enable: (+1)
+   \   00000000   0xB580             PUSH     {R7,LR}
+    159          #ifdef PIT_0_INIT
+    160          	LPLD_PIT_EnableIrq(struct_PIT_0); 
+   \   00000002   0x....             LDR.N    R1,??DataTable4
+   \   00000004   0xB084             SUB      SP,SP,#+16
+   \   00000006   0x4668             MOV      R0,SP
+   \   00000008   0x2214             MOVS     R2,#+20
+   \   0000000A   0x.... 0x....      BL       __aeabi_memcpy4
+   \   0000000E   0xBC0F             POP      {R0-R3}
+   \   00000010   0x.... 0x....      BL       LPLD_PIT_EnableIrq
+    161          #endif
+    162          
+    163          #ifdef PIT_1_INIT
+    164          	LPLD_PIT_EnableIrq(struct_PIT_1); 
+   \   00000014   0x....             LDR.N    R1,??DataTable4_1
+   \   00000016   0xB084             SUB      SP,SP,#+16
+   \   00000018   0x4668             MOV      R0,SP
+   \   0000001A   0x2214             MOVS     R2,#+20
+   \   0000001C   0x.... 0x....      BL       __aeabi_memcpy4
+   \   00000020   0xBC0F             POP      {R0-R3}
+   \   00000022   0x.... 0x....      BL       LPLD_PIT_EnableIrq
+    165          #endif
+    166           
+    167          #ifdef PIT_2_INIT
+    168          	LPLD_PIT_EnableIrq(struct_PIT_2); 
+   \   00000026   0x....             LDR.N    R1,??DataTable4_2
+   \   00000028   0xB084             SUB      SP,SP,#+16
+   \   0000002A   0x4668             MOV      R0,SP
+   \   0000002C   0x2214             MOVS     R2,#+20
+   \   0000002E   0x.... 0x....      BL       __aeabi_memcpy4
+   \   00000032   0xBC0F             POP      {R0-R3}
+   \   00000034   0x.... 0x....      BL       LPLD_PIT_EnableIrq
+    169          #endif
+    170            
+    171          #ifdef PIT_3_INIT
+    172          	LPLD_PIT_EnableIrq(struct_PIT_3);
+   \   00000038   0x....             LDR.N    R1,??DataTable4_3
+   \   0000003A   0xB084             SUB      SP,SP,#+16
+   \   0000003C   0x4668             MOV      R0,SP
+   \   0000003E   0x2214             MOVS     R2,#+20
+   \   00000040   0x.... 0x....      BL       __aeabi_memcpy4
+   \   00000044   0xBC0F             POP      {R0-R3}
+   \   00000046   0x.... 0x....      BL       LPLD_PIT_EnableIrq
+    173          #endif
+    174          }
+   \   0000004A   0xBD01             POP      {R0,PC}          ;; return
+    175          
+    176          /*===============================================================
+    177          	@brief     禁用所有定义的PIT
+    178          ==================================================================*/ 
+
+   \                                 In section .text, align 2, keep-with-next
+    179          void PIT_ALL_Disable(void)
+    180          {
+   \                     PIT_ALL_Disable: (+1)
+   \   00000000   0xB580             PUSH     {R7,LR}
+    181          #ifdef PIT_0_INIT
+    182          	LPLD_PIT_DisableIrq(struct_PIT_0); 
+   \   00000002   0x....             LDR.N    R1,??DataTable4
+   \   00000004   0xB084             SUB      SP,SP,#+16
+   \   00000006   0x4668             MOV      R0,SP
+   \   00000008   0x2214             MOVS     R2,#+20
+   \   0000000A   0x.... 0x....      BL       __aeabi_memcpy4
+   \   0000000E   0xBC0F             POP      {R0-R3}
+   \   00000010   0x.... 0x....      BL       LPLD_PIT_DisableIrq
+    183          #endif
+    184          
+    185          #ifdef PIT_1_INIT
+    186          	LPLD_PIT_DisableIrq(struct_PIT_1); 
+   \   00000014   0x....             LDR.N    R1,??DataTable4_1
+   \   00000016   0xB084             SUB      SP,SP,#+16
+   \   00000018   0x4668             MOV      R0,SP
+   \   0000001A   0x2214             MOVS     R2,#+20
+   \   0000001C   0x.... 0x....      BL       __aeabi_memcpy4
+   \   00000020   0xBC0F             POP      {R0-R3}
+   \   00000022   0x.... 0x....      BL       LPLD_PIT_DisableIrq
+    187          #endif
+    188           
+    189          #ifdef PIT_2_INIT
+    190          	LPLD_PIT_DisableIrq(struct_PIT_2); 
+   \   00000026   0x....             LDR.N    R1,??DataTable4_2
+   \   00000028   0xB084             SUB      SP,SP,#+16
+   \   0000002A   0x4668             MOV      R0,SP
+   \   0000002C   0x2214             MOVS     R2,#+20
+   \   0000002E   0x.... 0x....      BL       __aeabi_memcpy4
+   \   00000032   0xBC0F             POP      {R0-R3}
+   \   00000034   0x.... 0x....      BL       LPLD_PIT_DisableIrq
+    191          #endif
+    192            
+    193          #ifdef PIT_3_INIT
+    194          	LPLD_PIT_DisableIrq(struct_PIT_3); 
+   \   00000038   0x....             LDR.N    R1,??DataTable4_3
+   \   0000003A   0xB084             SUB      SP,SP,#+16
+   \   0000003C   0x4668             MOV      R0,SP
+   \   0000003E   0x2214             MOVS     R2,#+20
+   \   00000040   0x.... 0x....      BL       __aeabi_memcpy4
+   \   00000044   0xBC0F             POP      {R0-R3}
+   \   00000046   0x.... 0x....      BL       LPLD_PIT_DisableIrq
+    195          #endif
+    196          }
+   \   0000004A   0xBD01             POP      {R0,PC}          ;; return
+    197          
+    198          /*===============================================================
+    199          	@brief     PIT0中断
+    200          ==================================================================*/ 
+    201          #ifdef PIT_0_INIT
+    202          //100us中断
+
+   \                                 In section .text, align 4, keep-with-next
+    203          void PIT_0_handler()
+    204          {
+   \                     PIT_0_handler: (+1)
+   \   00000000   0xB580             PUSH     {R7,LR}
+    205              PIT0_Process();
+   \   00000002   0x.... 0x....      BL       PIT0_Process
+    206          }
+   \   00000006   0xBD01             POP      {R0,PC}          ;; return
+    207          #endif
+    208          
+    209          /*===============================================================
+    210          	@brief     PIT1中断
+    211          ==================================================================*/ 
+    212          #ifdef PIT_1_INIT
+    213          //4ms中断
+
+   \                                 In section .text, align 4, keep-with-next
+    214          void PIT_1_handler()
+    215          {
+   \                     PIT_1_handler: (+1)
+   \   00000000   0xB580             PUSH     {R7,LR}
+    216              PIT1_Process();
+   \   00000002   0x.... 0x....      BL       PIT1_Process
+    217          }
+   \   00000006   0xBD01             POP      {R0,PC}          ;; return
+    218          #endif
+    219          
+    220          /*===============================================================
+    221          	@brief     PIT2中断
+    222          ==================================================================*/ 
+    223          #ifdef PIT_2_INIT
+
+   \                                 In section .text, align 4, keep-with-next
+    224          void PIT_2_handler()
+    225          {
+   \                     PIT_2_handler: (+1)
+   \   00000000   0xB580             PUSH     {R7,LR}
+    226              PIT2_Process();
+   \   00000002   0x.... 0x....      BL       PIT2_Process
+    227          }
+   \   00000006   0xBD01             POP      {R0,PC}          ;; return
+    228          #endif
+    229          
+    230          /*===============================================================
+    231          	@brief     PIT3中断
+    232          ==================================================================*/ 
+    233          #ifdef PIT_3_INIT
+
+   \                                 In section .text, align 4, keep-with-next
+    234          void PIT_3_handler()
+    235          {
+   \                     PIT_3_handler: (+1)
+   \   00000000   0xB580             PUSH     {R7,LR}
+    236              PIT3_Process();
+   \   00000002   0x.... 0x....      BL       PIT3_Process
+    237          }
+   \   00000006   0xBD01             POP      {R0,PC}          ;; return
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable4:
+   \   00000000   0x........         DC32     struct_PIT_0
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable4_1:
+   \   00000000   0x........         DC32     struct_PIT_1
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable4_2:
+   \   00000000   0x........         DC32     struct_PIT_2
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable4_3:
+   \   00000000   0x........         DC32     struct_PIT_3
+    238          #endif
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+       8   PIT_0_handler
+         8   -> PIT0_Process
+       8   PIT_1_handler
+         8   -> PIT1_Process
+       8   PIT_2_handler
+         8   -> PIT2_Process
+       8   PIT_3_handler
+         8   -> PIT3_Process
+      24   PIT_ALL_Disable
+         8   -> LPLD_PIT_DisableIrq
+        24   -> __aeabi_memcpy4
+      24   PIT_ALL_Enable
+         8   -> LPLD_PIT_EnableIrq
+        24   -> __aeabi_memcpy4
+      24   PIT_Init
+         8   -> LPLD_PIT_Init
+         8   -> PIT_ALL_Disable
+        24   -> __aeabi_memcpy4
+      24   PIT_ONE_Disable
+         8   -> LPLD_PIT_DisableIrq
+        24   -> __aeabi_memcpy4
+      24   PIT_ONE_Enable
+         8   -> LPLD_PIT_EnableIrq
+        24   -> __aeabi_memcpy4
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       4  ??DataTable4
+       4  ??DataTable4_1
+       4  ??DataTable4_2
+       4  ??DataTable4_3
+       8  PIT_0_handler
+       8  PIT_1_handler
+       8  PIT_2_handler
+       8  PIT_3_handler
+      76  PIT_ALL_Disable
+      76  PIT_ALL_Enable
+     160  PIT_Init
+     102  PIT_ONE_Disable
+     102  PIT_ONE_Enable
+      20  struct_PIT_0
+      20  struct_PIT_1
+      20  struct_PIT_2
+      20  struct_PIT_3
+
+ 
+  80 bytes in section .bss
+ 564 bytes in section .text
+ 
+ 564 bytes of CODE memory
+  80 bytes of DATA memory
+
+Errors: none
+Warnings: none

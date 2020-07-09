@@ -1,0 +1,263 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V7.70.1.11437/W32 for ARM       07/Jun/2019  21:16:04
+# Copyright 1999-2016 IAR Systems AB.
+#
+#    Cpu mode     =  thumb
+#    Endian       =  little
+#    Source file  =  
+#        D:\Freescale\无线节能14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\app\charge\src\buck_PWM.c
+#    Command line =  
+#        D:\Freescale\无线节能14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\app\charge\src\buck_PWM.c
+#        -D LPLD_K60 -lCN
+#        D:\Freescale\无线节能14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\FLASH\List
+#        -lB
+#        D:\Freescale\无线节能14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\FLASH\List
+#        -o
+#        D:\Freescale\无线节能14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\FLASH\Obj
+#        --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa
+#        --no_clustering --no_scheduling --debug --endian=little
+#        --cpu=Cortex-M4 -e --fpu=None --dlib_config "D:\Program Files
+#        (x86)\IAR Systems\Embedded Workbench
+#        7.5\arm\INC\c\DLib_Config_Normal.h" -I
+#        D:\Freescale\无线节能14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\app\
+#        -I
+#        D:\Freescale\无线节能14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\..\..\lib\CPU\
+#        -I
+#        D:\Freescale\无线节能14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\..\..\lib\common\
+#        -I
+#        D:\Freescale\无线节能14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\..\..\lib\LPLD\
+#        -I
+#        D:\Freescale\无线节能14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\..\..\lib\LPLD\HW\
+#        -I
+#        D:\Freescale\无线节能14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\..\..\lib\LPLD\DEV\
+#        -I
+#        D:\Freescale\无线节能14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\..\..\lib\uCOS-II\Ports\
+#        -I
+#        D:\Freescale\无线节能14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\..\..\lib\uCOS-II\Source\
+#        -I
+#        D:\Freescale\无线节能14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\..\..\lib\FatFs\
+#        -I
+#        D:\Freescale\无线节能14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\..\..\lib\FatFs\option\
+#        -I
+#        D:\Freescale\无线节能14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\..\..\lib\USB\common\
+#        -I
+#        D:\Freescale\无线节能14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\..\..\lib\USB\driver\
+#        -I
+#        D:\Freescale\无线节能14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\..\..\lib\USB\descriptor\
+#        -I
+#        D:\Freescale\无线节能14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\..\..\lib\USB\class\
+#        -I
+#        D:\Freescale\无线节能14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\app\control\inc\
+#        -I
+#        D:\Freescale\无线节能14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\app\debug\inc\
+#        -I
+#        D:\Freescale\无线节能14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\app\device\inc\
+#        -I
+#        D:\Freescale\无线节能14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\app\signal\inc\
+#        -I
+#        D:\Freescale\无线节能14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\app\system\inc\
+#        -I
+#        D:\Freescale\无线节能14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\app\control\src\
+#        -I
+#        D:\Freescale\无线节能14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\app\debug\src\
+#        -I
+#        D:\Freescale\无线节能14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\app\device\src\
+#        -I
+#        D:\Freescale\无线节能14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\app\signal\src\
+#        -I
+#        D:\Freescale\无线节能14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\app\system\src\
+#        -I
+#        D:\Freescale\无线节能14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\app\drivers\inc\
+#        -I
+#        D:\Freescale\无线节能14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\app\drivers\src\
+#        -I
+#        D:\Freescale\无线节能14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\app\charge\inc\
+#        -I
+#        D:\Freescale\无线节能14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\app\charge\src\
+#        -Ol -I "D:\Program Files (x86)\IAR Systems\Embedded Workbench
+#        7.5\arm\CMSIS\Include\" -D ARM_MATH_CM4
+#    Locale       =  Chinese (Simplified)_China.936
+#    List file    =  
+#        D:\Freescale\无线节能14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\FLASH\List\buck_PWM.lst
+#    Object file  =  
+#        D:\Freescale\无线节能14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\FLASH\Obj\buck_PWM.o
+#
+###############################################################################
+
+D:\Freescale\无线节能14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\app\charge\src\buck_PWM.c
+      1          /*=============================================
+      2              @file         buck_PWM.c
+      3              @brief        充电脉冲文件
+      4              @programmer   Beyond Hsueh
+      5          =============================================*/
+      6          #include "buck_PWM.h"
+      7          
+      8          /*===============================================================
+      9                  @note      零落成泥碾作尘，只有香如故。
+     10          ==================================================================*/
+     11          // 充电模块信息定义
+
+   \                                 In section .bss, align 4
+     12          static FTM_InitTypeDef g_ftm_charge_struct;
+   \                     g_ftm_charge_struct:
+   \   00000000                      DS8 28
+     13          
+     14          /*===============================================================
+     15          	@brief     输出PWM初始化
+     16          ==================================================================*/
+
+   \                                 In section .text, align 2, keep-with-next
+     17          void PWM_Charge_Init(void)
+     18          {
+   \                     PWM_Charge_Init: (+1)
+   \   00000000   0xB5E0             PUSH     {R5-R7,LR}
+     19              //配置充电PWM参数
+     20              g_ftm_charge_struct.FTM_Ftmx = PWM_CHARGE_FTM;		
+   \   00000002   0x....             LDR.N    R0,??DataTable1  ;; 0x40039000
+   \   00000004   0x....             LDR.N    R1,??DataTable1_1
+   \   00000006   0x6008             STR      R0,[R1, #+0]
+     21              g_ftm_charge_struct.FTM_Mode = FTM_MODE_PWM;//PWM模式
+   \   00000008   0x2001             MOVS     R0,#+1
+   \   0000000A   0x....             LDR.N    R1,??DataTable1_1
+   \   0000000C   0x7108             STRB     R0,[R1, #+4]
+     22              g_ftm_charge_struct.FTM_PwmFreq = PWM_CHARGE_FREQ;//频率20000Hz
+   \   0000000E   0x....             LDR.N    R0,??DataTable1_2  ;; 0x156b2
+   \   00000010   0x....             LDR.N    R1,??DataTable1_1
+   \   00000012   0x6088             STR      R0,[R1, #+8]
+     23              //g_ftm_charge_struct.FTM_PwmDeadtimeCfg = DEAD_TIME_PWM;//通道0和1插入死区
+     24          
+     25              // 初始化FTM
+     26              LPLD_FTM_Init(g_ftm_charge_struct);
+   \   00000014   0x....             LDR.N    R1,??DataTable1_1
+   \   00000016   0xB084             SUB      SP,SP,#+16
+   \   00000018   0x4668             MOV      R0,SP
+   \   0000001A   0x221C             MOVS     R2,#+28
+   \   0000001C   0x.... 0x....      BL       __aeabi_memcpy4
+   \   00000020   0xBC0F             POP      {R0-R3}
+   \   00000022   0x.... 0x....      BL       LPLD_FTM_Init
+     27          
+     28              //充电PWM使能
+     29              LPLD_FTM_PWM_Enable(PWM_CHARGE_FTM, PWM_CHARGE_CH, HALF_DUTY, PWM_CHARGE_PIN, ALIGN_LEFT);//单极性PWM要为0
+   \   00000026   0x2028             MOVS     R0,#+40
+   \   00000028   0x9000             STR      R0,[SP, #+0]
+   \   0000002A   0x230D             MOVS     R3,#+13
+   \   0000002C   0xF241 0x3288      MOVW     R2,#+5000
+   \   00000030   0x2101             MOVS     R1,#+1
+   \   00000032   0x....             LDR.N    R0,??DataTable1  ;; 0x40039000
+   \   00000034   0x.... 0x....      BL       LPLD_FTM_PWM_Enable
+     30              LPLD_FTM_PWM_ChangeDuty(PWM_CHARGE_FTM, PWM_CHARGE_CH, 0);
+   \   00000038   0x2200             MOVS     R2,#+0
+   \   0000003A   0x2101             MOVS     R1,#+1
+   \   0000003C   0x....             LDR.N    R0,??DataTable1  ;; 0x40039000
+   \   0000003E   0x.... 0x....      BL       LPLD_FTM_PWM_ChangeDuty
+     31              
+     32              GPIO_Init(CHARGE_CONTROL_PORT, CHARGE_CONTROL_PIN_MASK, DIR_OUTPUT, ON);
+   \   00000042   0x2301             MOVS     R3,#+1
+   \   00000044   0x2201             MOVS     R2,#+1
+   \   00000046   0xF05F 0x6100      MOVS     R1,#+134217728
+   \   0000004A   0x....             LDR.N    R0,??DataTable1_3  ;; 0x400ff000
+   \   0000004C   0x.... 0x....      BL       GPIO_Init
+     33            
+     34              //CHARGE_OFF;
+     35          }
+   \   00000050   0xBD07             POP      {R0-R2,PC}       ;; return
+     36          
+     37          /*===============================================================
+     38          	@brief     修改Buck电路占空比
+     39          ==================================================================*/
+
+   \                                 In section .text, align 2, keep-with-next
+     40          void Change_PWM_Charge(uint32 DUTY)
+     41          {
+   \                     Change_PWM_Charge: (+1)
+   \   00000000   0xB538             PUSH     {R3-R5,LR}
+     42              uint32 charge_pwm_duty = 0;
+   \   00000002   0x2300             MOVS     R3,#+0
+     43          
+     44              charge_pwm_duty = DUTY;
+   \   00000004   0x0003             MOVS     R3,R0
+     45          
+     46              // 占空比限幅
+     47              charge_pwm_duty = (uint32)Limiter(charge_pwm_duty, MIN_DUTY, MAX_DUTY);
+   \   00000006   0x....             LDR.N    R2,??DataTable1_4  ;; 0x461c4000
+   \   00000008   0x2100             MOVS     R1,#+0
+   \   0000000A   0x000C             MOVS     R4,R1
+   \   0000000C   0x0015             MOVS     R5,R2
+   \   0000000E   0x0018             MOVS     R0,R3
+   \   00000010   0x.... 0x....      BL       __aeabi_ui2f
+   \   00000014   0x002A             MOVS     R2,R5
+   \   00000016   0x0021             MOVS     R1,R4
+   \   00000018   0x.... 0x....      BL       Limiter
+   \   0000001C   0x.... 0x....      BL       __aeabi_f2uiz
+   \   00000020   0x0003             MOVS     R3,R0
+     48          
+     49              // 修改Buck电路占空比
+     50              LPLD_FTM_PWM_ChangeDuty(PWM_CHARGE_FTM, PWM_CHARGE_CH, charge_pwm_duty);     
+   \   00000022   0x001A             MOVS     R2,R3
+   \   00000024   0x2101             MOVS     R1,#+1
+   \   00000026   0x....             LDR.N    R0,??DataTable1  ;; 0x40039000
+   \   00000028   0x.... 0x....      BL       LPLD_FTM_PWM_ChangeDuty
+     51          }
+   \   0000002C   0xBD31             POP      {R0,R4,R5,PC}    ;; return
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable1:
+   \   00000000   0x40039000         DC32     0x40039000
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable1_1:
+   \   00000000   0x........         DC32     g_ftm_charge_struct
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable1_2:
+   \   00000000   0x000156B2         DC32     0x156b2
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable1_3:
+   \   00000000   0x400FF000         DC32     0x400ff000
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable1_4:
+   \   00000000   0x461C4000         DC32     0x461c4000
+     52          
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+      16   Change_PWM_Charge
+        16   -> LPLD_FTM_PWM_ChangeDuty
+        16   -> Limiter
+        16   -> __aeabi_f2uiz
+        16   -> __aeabi_ui2f
+      32   PWM_Charge_Init
+        16   -> GPIO_Init
+        16   -> LPLD_FTM_Init
+        16   -> LPLD_FTM_PWM_ChangeDuty
+        16   -> LPLD_FTM_PWM_Enable
+        32   -> __aeabi_memcpy4
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       4  ??DataTable1
+       4  ??DataTable1_1
+       4  ??DataTable1_2
+       4  ??DataTable1_3
+       4  ??DataTable1_4
+      46  Change_PWM_Charge
+      82  PWM_Charge_Init
+      28  g_ftm_charge_struct
+
+ 
+  28 bytes in section .bss
+ 148 bytes in section .text
+ 
+ 148 bytes of CODE memory
+  28 bytes of DATA memory
+
+Errors: none
+Warnings: none

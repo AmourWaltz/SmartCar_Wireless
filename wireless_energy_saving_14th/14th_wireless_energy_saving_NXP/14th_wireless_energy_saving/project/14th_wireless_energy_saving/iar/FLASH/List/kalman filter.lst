@@ -1,0 +1,249 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V7.70.1.11437/W32 for ARM       10/Jun/2019  20:27:00
+# Copyright 1999-2016 IAR Systems AB.
+#
+#    Cpu mode     =  thumb
+#    Endian       =  little
+#    Source file  =  
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\app\signal\src\kalman
+#        filter.c
+#    Command line =  
+#        "D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\app\signal\src\kalman
+#        filter.c" -D LPLD_K60 -lCN
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\FLASH\List
+#        -lB
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\FLASH\List
+#        -o
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\FLASH\Obj
+#        --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa
+#        --no_clustering --no_scheduling --debug --endian=little
+#        --cpu=Cortex-M4 -e --fpu=None --dlib_config "D:\Program Files
+#        (x86)\IAR Systems\Embedded Workbench
+#        7.5\arm\INC\c\DLib_Config_Normal.h" -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\app\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\..\..\lib\CPU\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\..\..\lib\common\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\..\..\lib\LPLD\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\..\..\lib\LPLD\HW\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\..\..\lib\LPLD\DEV\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\..\..\lib\uCOS-II\Ports\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\..\..\lib\uCOS-II\Source\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\..\..\lib\FatFs\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\..\..\lib\FatFs\option\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\..\..\lib\USB\common\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\..\..\lib\USB\driver\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\..\..\lib\USB\descriptor\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\..\..\lib\USB\class\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\app\control\inc\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\app\debug\inc\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\app\device\inc\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\app\signal\inc\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\app\system\inc\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\app\control\src\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\app\debug\src\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\app\device\src\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\app\signal\src\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\app\system\src\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\app\drivers\inc\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\app\drivers\src\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\app\charge\inc\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\app\charge\src\
+#        -I
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\..\..\..\lib\LPLD\FUNC\
+#        -Ol -I "D:\Program Files (x86)\IAR Systems\Embedded Workbench
+#        7.5\arm\CMSIS\Include\" -D ARM_MATH_CM4
+#    Locale       =  Chinese (Simplified)_China.936
+#    List file    =  
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\FLASH\List\kalman
+#        filter.lst
+#    Object file  =  
+#        D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\iar\FLASH\Obj\kalman
+#        filter.o
+#
+###############################################################################
+
+D:\Freescale\无线节能14th\wireless_energy_saving_14th\14th_wireless_energy_saving\14th_wireless_energy_saving\project\14th_wireless_energy_saving\app\signal\src\kalman filter.c
+      1          //#include "include.h"
+      2          //#include "kalman_filter.h"
+      3          //
+      4          //#define ACCE_MAX_ERR 0.4
+      5          //#define acceAngle_DIV   10000000.0
+      6          //#define gyroAngle_DIV   1.0
+      7          ////gyroAngle = lastangle + gyrospeed*interval
+      8          //#define KLM_FLT_CH_XY 0
+      9          //#define KLM_FLT_CH_YZ 1
+     10          //#define KLM_FLT_CH_ZX 2
+     11          //
+     12          //float Klm_fliter(float acceAngle, float gyroAngle,char ch)
+     13          //{
+     14          //    static float last_DIV[5] = {0.5,0.5,0.5,0.5,0.5};
+     15          //    float prdDIV;
+     16          //    float curAngle; 
+     17          //    float prdAngle;
+     18          //    float kg;    
+     19          //    
+     20          //    prdAngle = gyroAngle;		//系统预测角度为陀螺仪测量角度
+     21          //    prdDIV = last_DIV[ch] + gyroAngle_DIV;	//计算系统方差
+     22          //    kg = sqrt(prdDIV / (prdDIV + acceAngle_DIV));	//计算卡尔曼增益
+     23          //    curAngle = prdAngle + kg * (acceAngle - prdAngle);	//
+     24          //    
+     25          //    last_DIV[ch] = (1 - kg) * prdDIV;		//最终角度方差
+     26          //    
+     27          //    return curAngle;
+     28          //}
+     29          //
+     30          //void GetAngleOfCar()
+     31          //{
+     32          //	float gyro_dx_angle,gyro_dy_angle,gyro_dz_angle;
+     33          //        static uint8 flag = 0;
+     34          //        static int16 count = 0;
+     35          //    static float sinx,cosx,siny,cosy;
+     36          //    static float x_angle_rad, y_angle_rad;
+     37          //        
+     38          //    //get_acce_data((int16*)&g_acce_x_data, (int16*)&g_acce_y_data, (int16*)&g_acce_z_data);
+     39          //    get_acce_mps2((int16*)&g_acce_x_mps2, (int16*)&g_acce_y_mps2, (int16*)&g_acce_z_mps2);
+     40          //    get_gyro_dps((float*)&g_gyro_x_dps, (float*)&g_gyro_y_dps, (float*)&g_gyro_z_dps);
+     41          //    
+     42          //    g_acce_all_mps2 = i_sqrt(g_acce_x_mps2*g_acce_x_mps2
+     43          //                                       +g_acce_y_mps2*g_acce_y_mps2
+     44          //                                       +g_acce_z_mps2*g_acce_z_mps2);
+     45          //    
+     46          //    //g_acce_xy_angle = 180/3.14159*atan2f(g_acce_x_mps2,g_acce_y_mps2);
+     47          //#if     defined(NEW_CAR_3)||defined(NEW_CAR_4) 
+     48          //    g_acce_yz_angle = 180/3.14159*atan2f(g_acce_y_mps2 - gl_cur_speed*g_gyro_z_dps*3.14159/180.0,g_acce_z_mps2);
+     49          //    g_acce_zx_angle = 180/3.14159*atan2f(g_acce_z_mps2,g_acce_x_mps2 - gl_cur_acce);  //修正 车身运动的加速度产生的影响
+     50          //#elif  defined(NEW_CAR_5) 
+     51          //    g_acce_yz_angle = 180/3.14159*atan2f(g_acce_y_mps2 + gl_cur_acce,g_acce_z_mps2);
+     52          //    g_acce_zx_angle = 180/3.14159*atan2f(g_acce_z_mps2,g_acce_x_mps2 - gl_cur_speed*g_gyro_z_dps*3.14159/180.0);  //修正 车身运动的加速度产生的影响
+     53          //#endif
+     54          //    x_angle_rad = g_gyro_x_angle/180*3.14159;
+     55          //    y_angle_rad = g_gyro_y_angle/180*3.14159;
+     56          //    gyro_dx_angle = g_gyro_x_dps * (PIT1_period_us/1000000.0);
+     57          //    gyro_dy_angle = g_gyro_y_dps * (PIT1_period_us/1000000.0);
+     58          //    gyro_dz_angle = g_gyro_z_dps * (PIT1_period_us/1000000.0);
+     59          //    
+     60          //    sinx = sinf(x_angle_rad);
+     61          //    siny = sinf(y_angle_rad);
+     62          //    cosx = cosf(x_angle_rad);
+     63          //    cosy = cosf(y_angle_rad);
+     64          //    
+     65          //    g_gyro_x_angle += gyro_dx_angle*siny - gyro_dz_angle*cosy;      //姿态补偿
+     66          //    g_gyro_y_angle += gyro_dy_angle*cosx - gyro_dz_angle*sinx;
+     67          //    g_gyro_z_angle += gyro_dz_angle;//*sqrtf(1-xsin*xsin-ycos*ycos) - gyro_dy_angle*xsin - gyro_dx_angle*ycos;
+     68          //    
+     69          ////    g_gyro_x_angle += g_gyro_x_dps * (PIT1_period_us/1000000.0);
+     70          ////    g_gyro_y_angle += g_gyro_y_dps * (PIT1_period_us/1000000.0);
+     71          ////    g_gyro_z_angle += g_gyro_z_dps * (PIT1_period_us/1000000.0);
+     72          //    
+     73          //    if(flag == 0)
+     74          //    {
+     75          //        //g_acce_xy_angle = 180/3.14159*atan2f(acce_zero[0],acce_zero[1]);
+     76          //            g_acce_yz_angle = 180/3.14159*atan2f(acce_zero[1],acce_zero[2]);
+     77          //            g_acce_zx_angle = 180/3.14159*atan2f(acce_zero[2],acce_zero[0]);
+     78          //            g_gyro_z_angle = g_acce_xy_angle;
+     79          //            g_gyro_x_angle = g_acce_yz_angle;
+     80          //            g_gyro_y_angle = g_acce_zx_angle;
+     81          //            
+     82          //    x_angle_rad = g_gyro_x_angle/180*3.14159;
+     83          //    y_angle_rad = g_gyro_y_angle/180*3.14159;
+     84          //            sinx = sinf(x_angle_rad);
+     85          //            siny = sinf(y_angle_rad);
+     86          //            cosx = cosf(x_angle_rad);
+     87          //            cosy = cosf(y_angle_rad);
+     88          //            
+     89          //        flag = 1;
+     90          //    }
+     91          ////    else if(count < 50)
+     92          ////    {
+     93          ////        count++;
+     94          ////        //g_gyro_z_angle = g_gyro_z_angle*0.95 + g_acce_xy_angle*0.05;
+     95          ////        g_gyro_x_angle = g_gyro_x_angle*0.95 + g_acce_yz_angle*0.05;
+     96          ////        g_gyro_y_angle = g_gyro_y_angle*0.95 + g_acce_zx_angle*0.05;
+     97          ////    }
+     98          //    if((g_acce_z_mps2 > 700)
+     99          //       &&((g_acce_z_mps2 < 1200))
+    100          ////            &&(fabs(g_gyro_z_dps)<10)       //转向加速度对翻滚角有影响
+    101          ////            &&((g_acce_all_mps2)<1200)
+    102          //            &&((g_acce_all_mps2)>900))       //坡道，颠簸时数据异常，影响积分准确性
+    103          //    {
+    104          //        //g_gyro_z_angle = Klm_fliter(g_acce_xy_angle,g_gyro_z_angle, KLM_FLT_CH_XY);
+    105          //        {
+    106          //            g_gyro_x_angle = Klm_fliter(g_acce_yz_angle,g_gyro_x_angle, KLM_FLT_CH_YZ);
+    107          //        }
+    108          //        g_gyro_y_angle = Klm_fliter(g_acce_zx_angle,g_gyro_y_angle, KLM_FLT_CH_ZX);
+    109          //    }
+    110          //    
+    111          //#if     defined(NEW_CAR_3)||defined(NEW_CAR_4) 
+    112          //    g_roll_angle = g_gyro_x_angle;
+    113          //    g_tilt_angle = 90 - g_gyro_y_angle;
+    114          //#elif  defined(NEW_CAR_5) 
+    115          //    g_roll_angle = 90 - g_gyro_y_angle;
+    116          //    g_tilt_angle = -g_gyro_x_angle;
+    117          //#endif
+    118          //    gl_rotate_dps = get_car_rotate_dps() ;
+    119          //
+    120          //    gl_acceAngle = GetAcceAngle();		//获取加速度角度
+    121          //
+    122          //        /*if((flag == 0)&&(gl_acceAngle!=0))
+    123          //        {
+    124          //            upstand_init();
+    125          //            gl_curAngle = gl_acceAngle;
+    126          //            flag = 1;
+    127          //        }*/
+    128          //    gl_gyroAngle = gl_curAngle + (0.001 * UPSTAND_PIRD_MS) * gl_rotate_dps;		//计算陀螺仪角度
+    129          //    
+    130          //    
+    131          //    //gl_curAngle = Klm_fliter(gl_acceAngle, gl_gyroAngle,KLM_FLT_CH_X);//卡尔曼滤波
+    132          //    gl_curAngle = Klm_fliter(gl_acceAngle, gl_gyroAngle);//卡尔曼滤波
+    133          //    
+    134          //    //g_fVisualScopeData[2] =  100*acce_z_mps_temp;
+    135          //    //g_fVisualScopeData[3] =  100*acce_y_mps_temp;
+    136          //    
+    137          //}
+    138          //
+    139          //void GetPostureOfCar()      //计算小车在三个坐标轴方向的角速度
+    140          //{
+    141          //    float CarAngleRad;
+    142          //    CarAngleRad = 3.14159/180*gl_curAngle;
+    143          //    
+    144          //    gl_dir_rotate = -sin(CarAngleRad)*get_gyro_dps('y') + cos(CarAngleRad)*get_gyro_dps('z');        //z
+    145          //    gl_capsize_rotate = cos(CarAngleRad)*get_gyro_dps('y') - sin(CarAngleRad)*get_gyro_dps('z');    //y
+    146          //    
+    147          //}
+
+
+ 
+
+ 
+
+
+Errors: none
+Warnings: none
